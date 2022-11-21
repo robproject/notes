@@ -90,8 +90,7 @@ publishing:
         - root
     writeStubs: false
     siteRootDir: docs
-    siteUrl: https://robproject.github.io
-    assetsPrefix: /notes
+    siteUrl: https://rodun.dev
     seo:
         title: Dendron
         description: Personal Knowledge Space
