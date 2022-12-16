@@ -2,15 +2,15 @@
 id: 67vcv6zhh0cxazsfqlaai29
 title: Computer
 desc: ''
-updated: 1657215446883
+updated: 1668999100817
 created: 1640062246196
 ---
 
 
 ### ChromeOS vs Mac vs Linux vs Windows
-ChromeOS boots fast, long battery on devices, works great for general purpose ie. only use it for google products and light work. Won't play nice with specific applications. When software updates become unavailable, it can be rooted and either be converted to linux or a newer rom installed but it won't be official, might not be reliable.
+ChromeOS boots fast, long battery on devices, works great for general purpose ie. only use it for google products and light work. Won't play nice with specific applications. When software updates become unavailable, it can be rooted and either converted to linux or a newer rom installed.
 
-Mac is expensive, is not compatible with many kinds of hardware and software, but for things within its capability it works very well. The Apple ecosystem is tightly integrated and can result in an efficient setup for its users without having them do much research in configuration.
+Mac is expensive, is not compatible with many kinds of hardware and software, but for things within its capability it works very well. The Apple ecosystem is tightly integrated and can result in an efficient setup for its users without requiring much configuration.
 
 Linux is fast, efficient in its architecture, but with a less polished UX. Works well for development and light work, but might not run certain applications including MS Office products.
 

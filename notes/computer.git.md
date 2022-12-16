@@ -2,7 +2,7 @@
 id: 8jlp33vk61u8j5wabgfaanm
 title: Git
 desc: ''
-updated: 1660339489025
+updated: 1669520693972
 created: 1637553970482
 ---
 ## Update
@@ -38,7 +38,7 @@ git status
 [core]  
 	repositoryformatversion = 0  
 	filemode = false  
-	bare = true   means no working copy, can be cloned from  
+	bare = true   =====>  means no working copy, can be cloned from  
 	logallrefupdates = true  
 	symlinks = false  
 	ignorecase = true  
