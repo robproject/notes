@@ -2,25 +2,25 @@
 id: g2s187yomivy0vrvbacg1p1
 title: Linux
 desc: ''
-updated: 1642047107941
+updated: 1671485432900
 created: 1641569005901
 ---
 
 ### *NIX Permissions
----    0000  no permissions  
--X-X-X 0111 execute  
--w-w-w- 0222 write  
--wx-wx-wx 0333 write & execute  
--r-r-r- 0444 read  
--r-xr-xr-x 0555 read & execute  
--rw-rw-rw- 0666 read & write  
--rwxrwxrwx 0777 read, write, & execute  
+| sym        | code | desc                   |
+|------------|------|------------------------|
+| ---        | 0000 | no permissions         |
+| -X-X-X     | 0111 | execute                |
+| -w-w-w-    | 0222 | write                  |
+| -wx-wx-wx  | 0333 | write & execute        |
+| -r-r-r-    | 0444 | read                   |
+| -r-xr-xr-x | 0555 | read & execute         |
+| -rw-rw-rw- | 0666 | read & write           |
+| -rwxrwxrwx | 0777 | read, write, & execute |
   
 
 [Linux Distributions Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution)
 
-### Linux Filesystem
-![](/assets/images/2022-01-07-08-39-02.png)
 
 ### Extract Directory of tar.gz files
 gunzip -r directory/pathtoallfiles/*

@@ -2,7 +2,7 @@
 id: 8um63expliuf60a3ipojudy
 title: Raspberrypi
 desc: ''
-updated: 1657236299596
+updated: 1671485779401
 created: 1642472020670
 ---
 # Software
@@ -36,6 +36,7 @@ created: 1642472020670
 ## I/O
 ### Header
 Double Column Left-Right Format
+
 | Pin | Value  | Connected | Pin | Value  | Connected |
 |-----|--------|-----------|-----|--------|-----------|
 | 1   | 3V3    | -         | 2   | 5V     | -         |

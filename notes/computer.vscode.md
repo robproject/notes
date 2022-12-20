@@ -2,13 +2,14 @@
 id: xqykp7gb70r4v2riysf0hso
 title: Vscode
 desc: ''
-updated: 1657215323291
+updated: 1671485831060
 created: 1657215159896
 ---
 # Extensions
 ## Terminals Manager
 ### ERPNext
 **.vscode/terminals.json**
+```
 {
     "autorun": true,
     "autokill": true,
@@ -43,3 +44,4 @@ created: 1657215159896
         }
     ]
 }
+```

@@ -1,12 +1,10 @@
 ---
 id: 1f76dp53tzqozdchv4m5z2c
-title: GitHub
+title: GitHub Actions
 desc: ''
-updated: 1655493121453
+updated: 1671480249560
 created: 1655492082970
 ---
-# Github Actions
-
 ## Artifacts
 ### Upload
 ```

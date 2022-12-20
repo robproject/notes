@@ -2,7 +2,7 @@
 id: 272xu0jexne9ooztma4jo52
 title: Cost Benefit
 desc: ''
-updated: 1666809039315
+updated: 1671486320991
 created: 1666806519479
 ---
 ### Annual Worth
@@ -21,5 +21,5 @@ $F = P(1+i)^n$
 
 ### Effective Interest
 $CF = \text{Compounding Frequency - number of compounding periods in period being calculated}$    
-$P = \text{Period being calcualted}$  
+$P = \text{Period being calculated}$  
 $\frac{i_{effective}}{P} = \left( 1 + \frac{i_{nominal}/ P}{CF}\right)^{CF} - 1$    
