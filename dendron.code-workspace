@@ -3,6 +3,9 @@
     {
       "path": "notes",
       "name": "notes"
+    },
+    {
+      "path": "."
     }
   ],
   "settings": {
