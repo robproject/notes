@@ -84,16 +84,32 @@ publishing:
     enableFMTitle: true
     enableNoteTitleForLink: true
     enablePrettyRefs: true
+    enableHierarchyDisplay: false
     enableKatex: true
     copyAssets: true
-    siteHierarchies:
-        - root
+    siteIndex: root
+    hierarchy:
+        biology:
+            publishByDefault: false
+        civil:
+            publishByDefault: false
+        fitness:
+            publishByDefault: false
+        games:
+            publishByDefault: false
+        psychology:
+            publishByDefault: false
+        tags:
+            publishByDefault: false
     writeStubs: false
+    sidebarPath: './sidebars/root.js'
     siteRootDir: docs
     siteUrl: https://rodun.dev
     seo:
-        title: Dendron
-        description: Personal Knowledge Space
+        title: rodun
+        description: homepage
+        twitter: https://twitter.com/rodunro
+        author: Robert Duncan
     github:
         enableEditLink: true
         editLinkText: Edit this page on GitHub
