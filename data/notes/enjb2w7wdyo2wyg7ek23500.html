@@ -1,0 +1,91 @@
+<h1 id="frappe-framework">Frappe Framework<a aria-hidden="true" class="anchor-heading icon-link" href="#frappe-framework"></a></h1>
+<h2 id="custom-app">Custom App<a aria-hidden="true" class="anchor-heading icon-link" href="#custom-app"></a></h2>
+<p>General rules:</p>
+<ol>
+<li>Position important and mandatory fields in top left</li>
+<li>Have less than 6 fields in a section</li>
+<li>Default values</li>
+<li>All related items in dashboard</li>
+<li>Section headings designate new sections</li>
+<li>Avoid buttons; fetch automatically on select instead. If required, place in toolbar</li>
+<li>Functions and methods need to be less than 10 lines of code. Anything larger needs to become a class.</li>
+</ol>
+<p>Doctype Naming Is Title Case And Singular
+Child Table Naming requires the parent doctype to be named, followed by the relation</p>
+<p>Field Names Are Title Case, Link Name == Doctype Name
+Table names are plural, only relation.
+Vars must be descriptive</p>
+<h3 id="creating-doctypes">Creating Doctypes<a aria-hidden="true" class="anchor-heading icon-link" href="#creating-doctypes"></a></h3>
+<p>Don't check 'custom?' as this is only for users without access to server-side operations
+<a href="https://discuss.erpnext.com/t/custom-checkbox/6386/3">https://discuss.erpnext.com/t/custom-checkbox/6386/3</a></p>
+<h3 id="user-translations">User Translations<a aria-hidden="true" class="anchor-heading icon-link" href="#user-translations"></a></h3>
+<p>Javascript user traslation<br>
+<code>__("sample translation")  </code></p>
+<p>Python user translation<br>
+<code>_("sample translation") </code></p>
+<h3 id="webapp-architecture">WebApp Architecture<a aria-hidden="true" class="anchor-heading icon-link" href="#webapp-architecture"></a></h3>
+<p><img src="/assets/images/2021-12-24-13-42-25.png"></p>
+<h2 id="developer-setup">Developer Setup<a aria-hidden="true" class="anchor-heading icon-link" href="#developer-setup"></a></h2>
+<h3 id="docker-dev-setup">Docker Dev Setup<a aria-hidden="true" class="anchor-heading icon-link" href="#docker-dev-setup"></a></h3>
+<p>Setup and add user according to instructions below
+</p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Docker</span></div>
+<a href="/notes/p5vi6pdpl4wwk418shzymb6" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><p>Ensure docker desktop is up to date<br>
+wsl2 selected in docker desktop<br>
+ubuntu installed, instance enabled in docker desktop  </p>
+</div></div><p></p><p></p>
+<p><a href="https://github.com/frappe/frappe_docker/tree/main/development">https://github.com/frappe/frappe_docker/tree/main/development</a></p>
+<p>Inside of each bench:
+./env/bin/pip install honcho</p>
+<p>If stuck on screen "your system is being updated…"
+bench set-config maintenance_mode 0</p>
+<p>From &#x3C;<a href="https://discuss.erpnext.com/t/oyour-system-is-being-updated-please-refresh-again-after-a-few-moments-after-running-bench-migrate/40197/26">https://discuss.erpnext.com/t/oyour-system-is-being-updated-please-refresh-again-after-a-few-moments-after-running-bench-migrate/40197/26</a></p>
+<p>bench use mysite.localhost
+after site creation, logout then login as admin</p>
+<h3 id="url">URL<a aria-hidden="true" class="anchor-heading icon-link" href="#url"></a></h3>
+<p>mysite.localhost:8000  </p>
+<h3 id="db-restore-with-files-in-frappe-bench">DB Restore with files in frappe-bench/<a aria-hidden="true" class="anchor-heading icon-link" href="#db-restore-with-files-in-frappe-bench"></a></h3>
+<p>bench --site [mysite] restore [db.sql]<br>
+bench --site [mysite] set-admin-password [password]</p>
+<h3 id="dev-setup-from-azure-vhd">Dev Setup from Azure VHD<a aria-hidden="true" class="anchor-heading icon-link" href="#dev-setup-from-azure-vhd"></a></h3>
+<p>From Debian server, installed via easyinstall script</p>
+<ol>
+<li>Use Azure storage explorer to download vhd</li>
+<li>Create hyper-v VM, same ram, default network adapter</li>
+<li>Remove SSL to access from browser Instructions</li>
+</ol>
+<pre><code>	   1. bench config dns_multitenant off
+	   2. bench setup nginx
+	   3. sudo service nginx reload
+</code></pre>
+<pre><code>   From &#x3C;https://discuss.erpnext.com/t/remove-ssl-setup-and-return-to-port-based-multitenancy/44234> 
+</code></pre>
+<ol start="4">
+<li>Sudo apt-get install samba</li>
+<li>Su root, smbpasswd -a erpadmin</li>
+<li>vim /etc/samba/smb.conf
+[newshare]
+path = /home/
+browseable = yes
+read only = no<br>
+guest ok = yes</li>
+<li>Su erpadmin  </li>
+<li>Sudo chmod -R 777 /home</li>
+<li>Host - network discovery/sharing turn on</li>
+<li>Login via erpadmin@erpnextvm (or other vm name), password</li>
+</ol>
+<h2 id="docker-production-setup">Docker Production Setup<a aria-hidden="true" class="anchor-heading icon-link" href="#docker-production-setup"></a></h2>
+<h3 id="traefik-config">Traefik Config<a aria-hidden="true" class="anchor-heading icon-link" href="#traefik-config"></a></h3>
+<p>TRAEFIK_DOMAIN=traefik.your_site.com
+EMAIL=<a href="/mailto:your_email@your_site.com">your_email@your_site.com</a>
+HASHED_PASSWORD={filled}</p>
+<h2 id="common-commands">Common Commands<a aria-hidden="true" class="anchor-heading icon-link" href="#common-commands"></a></h2>
+<h3 id="new-site">New Site<a aria-hidden="true" class="anchor-heading icon-link" href="#new-site"></a></h3>
+<p>bench new-site mysite.localhost --mariadb-root-password 123 --admin-password admin --no-mariadb-socket</p>

@@ -1,0 +1,36 @@
+<h1 id="git">Git<a aria-hidden="true" class="anchor-heading icon-link" href="#git"></a></h1>
+<h2 id="update">Update<a aria-hidden="true" class="anchor-heading icon-link" href="#update"></a></h2>
+<h3 id="windows">Windows<a aria-hidden="true" class="anchor-heading icon-link" href="#windows"></a></h3>
+<p>git update-git-for-windows</p>
+<h2 id="operations">Operations<a aria-hidden="true" class="anchor-heading icon-link" href="#operations"></a></h2>
+<h3 id="stash-pull-apply">Stash Pull Apply<a aria-hidden="true" class="anchor-heading icon-link" href="#stash-pull-apply"></a></h3>
+<p>git add .
+git stash
+git pull upstream version-13 # or origin
+git stash apply</p>
+<h3 id="remove-from-staging">Remove from staging<a aria-hidden="true" class="anchor-heading icon-link" href="#remove-from-staging"></a></h3>
+<p>git restore --staged [-r][file1] [file2]dir [need -r]]</p>
+<h3 id="remove-all-from-staging">Remove all from staging<a aria-hidden="true" class="anchor-heading icon-link" href="#remove-all-from-staging"></a></h3>
+<p>git reset HEAD</p>
+<h3 id="see-all-branches">See all branches<a aria-hidden="true" class="anchor-heading icon-link" href="#see-all-branches"></a></h3>
+<p>git branch -a</p>
+<h3 id="log">Log<a aria-hidden="true" class="anchor-heading icon-link" href="#log"></a></h3>
+<p>git log --oneline</p>
+<h3 id="status">Status<a aria-hidden="true" class="anchor-heading icon-link" href="#status"></a></h3>
+<p>git status</p>
+<h2 id="files">Files<a aria-hidden="true" class="anchor-heading icon-link" href="#files"></a></h2>
+<h3 id="gitconfig">.git/config<a aria-hidden="true" class="anchor-heading icon-link" href="#gitconfig"></a></h3>
+<pre><code>[core]  
+	repositoryformatversion = 0  
+	filemode = false  
+	bare = true   =====>  means no working copy, can be cloned from  
+	logallrefupdates = true  
+	symlinks = false  
+	ignorecase = true  
+[remote "origin"]  
+	url = C:\\Users\\%USER%\\dendron\\.git  
+	fetch = +refs/heads/*:refs/remotes/origin/*  
+[branch "master"]  
+	remote = origin  
+	merge = refs/heads/master  
+</code></pre>

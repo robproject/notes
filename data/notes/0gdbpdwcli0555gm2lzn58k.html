@@ -1,0 +1,48 @@
+<h1 id="semantic-release">Semantic Release<a aria-hidden="true" class="anchor-heading icon-link" href="#semantic-release"></a></h1>
+<h1 id="gha">GHA<a aria-hidden="true" class="anchor-heading icon-link" href="#gha"></a></h1>
+<h2 id="releaserc">releaserc<a aria-hidden="true" class="anchor-heading icon-link" href="#releaserc"></a></h2>
+<p>branches: ['main']
+repositoryUrl: '<a href="https://github.com/Robproject/github-actions.git&#x27;">https://github.com/Robproject/github-actions.git'</a></p>
+<p>plugins: </p>
+<ul>
+<li>'@semantic-release/commit-analyzer'</li>
+<li>'@semantic-release/release-notes-generator'</li>
+<li>
+<ul>
+<li>'@semantic-release/github'</li>
+</ul>
+</li>
+</ul>
+<h2 id="yml">yml<a aria-hidden="true" class="anchor-heading icon-link" href="#yml"></a></h2>
+<p>name: CI</p>
+<h3 id="controls-when-the-workflow-will-run">Controls when the workflow will run<a aria-hidden="true" class="anchor-heading icon-link" href="#controls-when-the-workflow-will-run"></a></h3>
+<p>on:</p>
+<h3 id="triggers-the-workflow-on-push-or-pull-request-events-but-only-for-the-main-branch">Triggers the workflow on push or pull request events but only for the "main" branch<a aria-hidden="true" class="anchor-heading icon-link" href="#triggers-the-workflow-on-push-or-pull-request-events-but-only-for-the-main-branch"></a></h3>
+<p>  push:
+branches: [ main ]
+pull_request:
+branches: [ main ]</p>
+<h3 id="allows-you-to-run-this-workflow-manually-from-the-actions-tab">Allows you to run this workflow manually from the Actions tab<a aria-hidden="true" class="anchor-heading icon-link" href="#allows-you-to-run-this-workflow-manually-from-the-actions-tab"></a></h3>
+<p>  workflow_dispatch:
+env:
+GH_TOKEN: ${{ secrets. GH_TOKEN }}</p>
+<h3 id="a-workflow-run-is-made-up-of-one-or-more-jobs-that-can-run-sequentially-or-in-parallel">A workflow run is made up of one or more jobs that can run sequentially or in parallel<a aria-hidden="true" class="anchor-heading icon-link" href="#a-workflow-run-is-made-up-of-one-or-more-jobs-that-can-run-sequentially-or-in-parallel"></a></h3>
+<p>jobs:
+build:</p>
+<pre><code># The type of runner that the job will run on
+runs-on: 'ubuntu-latest'
+# use node container with git
+container: 'timbru31/node-alpine-git'
+# Steps represent a sequence of tasks that will be executed as part of the job
+steps:
+  # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  - uses: actions/checkout@v3
+  # fix permissions (for git)
+  - name: Permissions issue
+    run: chown $(whoami):$(whoami) -R .
+  # create version
+  - name: release
+    run: npx semantic-release
+    
+  
+</code></pre>

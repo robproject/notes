@@ -1,0 +1,17 @@
+<h1 id="youtube-downloader">Youtube Downloader<a aria-hidden="true" class="anchor-heading icon-link" href="#youtube-downloader"></a></h1>
+<p>youtube-dl -x --audio-format mp3 </p>
+<h3 id="playlist-old-way">Playlist old way<a aria-hidden="true" class="anchor-heading icon-link" href="#playlist-old-way"></a></h3>
+<p>source venv/bin/activate
+cd playlist
+youtube-dl --rm-cache-dir
+youtube-dl --playlist-start 989 -x -v --audio-format mp3 PLrZnjECO5SND228JDgd4cmjFXXLPwNE96</p>
+<h3 id="playlist">Playlist<a aria-hidden="true" class="anchor-heading icon-link" href="#playlist"></a></h3>
+<p><a href="https://stackoverflow.com/a/47093424">https://stackoverflow.com/a/47093424</a></p>
+<pre><code>PLAYLIST='PLAYLIST_ID'
+PLAYLIST_LENGTH='number of songs in playlist'
+source venv/bin/activate
+cd playlist
+for (( i=0; i&#x3C;$PLAYLIST_LENGTH; i+=100 )); do
+	youtube-dl -ciw --extract-audio --audio-format mp3 --playlist-start $i --playlist-end $(($i+99)) --restrict-filenames $PLAYLIST &#x26;
+done
+</code></pre>

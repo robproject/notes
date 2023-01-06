@@ -1,0 +1,7 @@
+
+
+## Removal
+### Chemical
+Nair - base chemical swells hair shaft so chemical salts enter the hair and break down sulfur bonds. Is caustic to skin and can cause burns.
+### Electrolysis 
+The only method recognized by FDA

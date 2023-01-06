@@ -1,0 +1,225 @@
+<h1 id="raspberrypi">Raspberrypi<a aria-hidden="true" class="anchor-heading icon-link" href="#raspberrypi"></a></h1>
+<h1 id="software">Software<a aria-hidden="true" class="anchor-heading icon-link" href="#software"></a></h1>
+<h2 id="setup">Setup<a aria-hidden="true" class="anchor-heading icon-link" href="#setup"></a></h2>
+<h3 id="headless">Headless<a aria-hidden="true" class="anchor-heading icon-link" href="#headless"></a></h3>
+<ol>
+<li>
+<p>download lates .img</p>
+</li>
+<li>
+<p>delete partitions on microsd</p>
+</li>
+<li>
+<p>flash .img to microsd with rufus</p>
+</li>
+<li>
+<p>add empty, extensionless file ssh</p>
+</li>
+<li>
+<p>add wpa_supplicant.conf and update network:</p>
+<p>country=US
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1</p>
+<p>network={
+scan_ssid=1
+ssid="your_wifi_ssid"
+psk="your_wifi_password"
+}</p>
+</li>
+<li>
+<p>In terminal, ssh <a href="/mailto:pi@ipi.pip.ip.ip">pi@ipi.pip.ip.ip</a></p>
+</li>
+<li>
+<p>login, password is 'raspberry'</p>
+</li>
+<li>
+<p>sudo apt update &#x26; upgrade</p>
+</li>
+<li>
+<p>sudo apt install xrdp - rdp won't be able to login with pi, another user must be created</p>
+</li>
+<li>
+<p>add user USER for xrdp</p>
+</li>
+<li>
+<p>login with windows rdp</p>
+</li>
+</ol>
+<h1 id="hardware">Hardware<a aria-hidden="true" class="anchor-heading icon-link" href="#hardware"></a></h1>
+<h2 id="io">I/O<a aria-hidden="true" class="anchor-heading icon-link" href="#io"></a></h2>
+<h3 id="header">Header<a aria-hidden="true" class="anchor-heading icon-link" href="#header"></a></h3>
+<p>Double Column Left-Right Format</p>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Pin</th><th>Value</th><th>Connected</th><th>Pin</th><th>Value</th><th>Connected</th></tr></thead><tbody><tr><td>1</td><td>3V3</td><td>-</td><td>2</td><td>5V</td><td>-</td></tr><tr><td>3</td><td>GPIO2</td><td>-</td><td>4</td><td>5V</td><td>-</td></tr><tr><td>5</td><td>GPIO3</td><td>-</td><td>6</td><td>GND</td><td>-</td></tr><tr><td>7</td><td>GPIO4</td><td>-</td><td>8</td><td>GPIO14</td><td>-</td></tr><tr><td>9</td><td>GND</td><td>-</td><td>10</td><td>GPIO15</td><td>-</td></tr><tr><td>11</td><td>GPIO17</td><td>-</td><td>12</td><td>GPIO18</td><td>-</td></tr><tr><td>13</td><td>GPIO27</td><td>-</td><td>14</td><td>GND</td><td>-</td></tr><tr><td>15</td><td>GPIO22</td><td>-</td><td>16</td><td>GPIO23</td><td>-</td></tr><tr><td>17</td><td>3V3</td><td>-</td><td>18</td><td>GPIO24</td><td>-</td></tr><tr><td>19</td><td>GPIO10</td><td>-</td><td>20</td><td>GND</td><td>-</td></tr><tr><td>21</td><td>GPIO9</td><td>-</td><td>22</td><td>GPIO25</td><td>-</td></tr><tr><td>23</td><td>GPIO11</td><td>-</td><td>24</td><td>GPIO8</td><td>-</td></tr><tr><td>25</td><td>GND</td><td>-</td><td>26</td><td>GPIO7</td><td>-</td></tr><tr><td>27</td><td>GPIO0</td><td>-</td><td>28</td><td>GPIO1</td><td>-</td></tr><tr><td>29</td><td>GPIO5</td><td>-</td><td>30</td><td>GND</td><td>-</td></tr><tr><td>31</td><td>GPIO6</td><td>-</td><td>32</td><td>GPIO12</td><td>-</td></tr><tr><td>33</td><td>GPIO19</td><td>-</td><td>34</td><td>GND</td><td>-</td></tr><tr><td>35</td><td>GPIO19</td><td>-</td><td>36</td><td>GPIO16</td><td>-</td></tr><tr><td>37</td><td>GPIO26</td><td>-</td><td>38</td><td>GPIO20</td><td>-</td></tr><tr><td>39</td><td>GND</td><td>-</td><td>40</td><td>GPIO21</td><td>-</td></tr></tbody></table></div>

@@ -1,0 +1,19 @@
+<h1 id="github-actions">GitHub Actions<a aria-hidden="true" class="anchor-heading icon-link" href="#github-actions"></a></h1>
+<h2 id="artifacts">Artifacts<a aria-hidden="true" class="anchor-heading icon-link" href="#artifacts"></a></h2>
+<h3 id="upload">Upload<a aria-hidden="true" class="anchor-heading icon-link" href="#upload"></a></h3>
+<pre><code>  - name: 'Upload Artifact'
+    uses: actions/upload-artifact@v3
+    with:
+      name: my-artifact
+      path: my_file.txt
+      retention-days: 5
+</code></pre>
+<h3 id="download">Download<a aria-hidden="true" class="anchor-heading icon-link" href="#download"></a></h3>
+<pre><code>- name: Download a single artifact
+  uses: actions/download-artifact@v3
+  with:
+    name: my-artifact
+
+- name: Download all workflow run artifacts
+  uses: actions/download-artifact@v3
+</code></pre>

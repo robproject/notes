@@ -1,0 +1,40 @@
+<h1 id="vscode">Vscode<a aria-hidden="true" class="anchor-heading icon-link" href="#vscode"></a></h1>
+<h1 id="extensions">Extensions<a aria-hidden="true" class="anchor-heading icon-link" href="#extensions"></a></h1>
+<h2 id="terminals-manager">Terminals Manager<a aria-hidden="true" class="anchor-heading icon-link" href="#terminals-manager"></a></h2>
+<h3 id="erpnext">ERPNext<a aria-hidden="true" class="anchor-heading icon-link" href="#erpnext"></a></h3>
+<p><strong>.vscode/terminals.json</strong></p>
+<pre><code>{
+    "autorun": true,
+    "autokill": true,
+    "terminals": [
+        {
+            "name": "Git",
+            "description": "For running git commands",
+            "open": true,
+            "focus": true,
+            "commands": [
+                "cd frappe-bench/apps/CUSTOM_APP"
+            ]
+        },
+        {
+            "name": "Bench",
+            "description": "Running Bench commands",
+            "open": true,
+            "focus": false,
+            "commands": [
+                "cd frappe-bench"
+            ]
+        },
+        {
+            "name": "Bench Console",
+            "description": "For running python commands",
+            "open": true,
+            "focus": false,
+            "commands": [
+                "cd frappe-bench",
+                "bench console"
+            ]
+        }
+    ]
+}
+</code></pre>

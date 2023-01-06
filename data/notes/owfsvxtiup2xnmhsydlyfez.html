@@ -1,0 +1,29 @@
+<h1 id="database">Database<a aria-hidden="true" class="anchor-heading icon-link" href="#database"></a></h1>
+<h2 id="nosql">NoSQL<a aria-hidden="true" class="anchor-heading icon-link" href="#nosql"></a></h2>
+<h3 id="document-database">Document Database<a aria-hidden="true" class="anchor-heading icon-link" href="#document-database"></a></h3>
+<div class="mermaid">
+  flowchart LR
+document-->key-array &#x26; key-value &#x26; nested-document
+</div>
+<h3 id="key-value-store">Key-Value Store<a aria-hidden="true" class="anchor-heading icon-link" href="#key-value-store"></a></h3>
+<p>Simplest option</p>
+<ul>
+<li>Redis</li>
+</ul>
+<div class="mermaid">
+  flowchart LR
+Key-->Value
+</div>
+<h3 id="wide-column-store">Wide-Column Store<a aria-hidden="true" class="anchor-heading icon-link" href="#wide-column-store"></a></h3>
+<p>For queries in large datasets</p>
+<div class="mermaid">
+  flowchart LR
+Key-->Column
+</div>
+<h3 id="graph-stores">Graph Stores<a aria-hidden="true" class="anchor-heading icon-link" href="#graph-stores"></a></h3>
+<div class="mermaid">
+  flowchart LR
+nodeA--edge-->nodeB &#x26; nodeC &#x26; nodeD
+nodeC--edge-->nodeB
+</div>
+<p><a href="https://qr.ae/pG6ksX">Quora source</a></p>

@@ -1,0 +1,5441 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673048565819,
+      "created": 1673048565819,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "398cceh65hemaonxc6w22r7": {
+      "id": "398cceh65hemaonxc6w22r7",
+      "title": "rodun",
+      "desc": "",
+      "updated": 1673033072132,
+      "created": 1668995545797,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "194939704b23314011141116733dafdb",
+      "links": [],
+      "anchors": {
+        "links": {
+          "type": "header",
+          "text": "Links",
+          "value": "links",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "github": {
+          "type": "header",
+          "text": "GitHub",
+          "value": "github",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "linkedin": {
+          "type": "header",
+          "text": "LinkedIn",
+          "value": "linkedin",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "frappe-forum": {
+          "type": "header",
+          "text": "Frappe Forum",
+          "value": "frappe-forum",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "hackerrank": {
+          "type": "header",
+          "text": "HackerRank",
+          "value": "hackerrank",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "youtube": {
+          "type": "header",
+          "text": "YouTube",
+          "value": "youtube",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "5u88syeac813rvqauto8x7o",
+        "67vcv6zhh0cxazsfqlaai29",
+        "44oijwqa5kph6kobar7jckg",
+        "dcbhrrtovhg5rzaathh1vzo",
+        "zn57yzyn4u8t0upnvhlhh86",
+        "wn2fr0o5xhabmh5vfkevsvj",
+        "58xds0229zowl3885oqf38y"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "58xds0229zowl3885oqf38y": {
+      "fname": "workflows",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673048564744,
+      "created": 1673048564744,
+      "id": "58xds0229zowl3885oqf38y",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "vty2jn9w9pngdhyjp2be2rh"
+      ],
+      "parent": "398cceh65hemaonxc6w22r7",
+      "data": {},
+      "title": "Workflows"
+    },
+    "vty2jn9w9pngdhyjp2be2rh": {
+      "id": "vty2jn9w9pngdhyjp2be2rh",
+      "title": "School",
+      "desc": "",
+      "updated": 1671487184995,
+      "created": 1671486719136,
+      "custom": {},
+      "fname": "workflows.school",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "1c0cd7daee74f09285a10ab6b13fe80b",
+      "links": [],
+      "anchors": {
+        "paperless-student": {
+          "type": "header",
+          "text": "Paperless Student",
+          "value": "paperless-student",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "folder-directory": {
+          "type": "header",
+          "text": "Folder directory",
+          "value": "folder-directory",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "denron-repo": {
+          "type": "header",
+          "text": "Denron repo",
+          "value": "denron-repo",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "58xds0229zowl3885oqf38y",
+      "data": {}
+    },
+    "wn2fr0o5xhabmh5vfkevsvj": {
+      "fname": "consumer",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673048564741,
+      "created": 1673048564741,
+      "id": "wn2fr0o5xhabmh5vfkevsvj",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ev78v13bz1p2cn7zkaso88k",
+        "ndat5nbp6paie9ifjyxbqcy"
+      ],
+      "parent": "398cceh65hemaonxc6w22r7",
+      "data": {},
+      "title": "Consumer"
+    },
+    "ndat5nbp6paie9ifjyxbqcy": {
+      "id": "ndat5nbp6paie9ifjyxbqcy",
+      "title": "Travel",
+      "desc": "",
+      "updated": 1640148795850,
+      "created": 1640148795850,
+      "custom": {},
+      "fname": "consumer.travel",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "64837ee5c6bda5066474b516c8160066",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ufztr6xlzn1pujdzcf5argo",
+        "sbkfv60zkzxuf0ro309nopz"
+      ],
+      "parent": "wn2fr0o5xhabmh5vfkevsvj",
+      "data": {}
+    },
+    "sbkfv60zkzxuf0ro309nopz": {
+      "id": "sbkfv60zkzxuf0ro309nopz",
+      "title": "California",
+      "desc": "",
+      "updated": 1659196502090,
+      "created": 1659196467379,
+      "custom": {},
+      "fname": "consumer.travel.california",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "2b948d750cd7013de0f2f37e1f6dab0d",
+      "links": [],
+      "anchors": {
+        "flights": {
+          "type": "header",
+          "text": "Flights",
+          "value": "flights",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "to-mxsa-via-tij": {
+          "type": "header",
+          "text": "To MX/SA via TIJ",
+          "value": "to-mxsa-via-tij",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "gpgjgad8we1ddr4ki0fftgx",
+        "5e2aiik1t3agmiz4dbyv5bm"
+      ],
+      "parent": "ndat5nbp6paie9ifjyxbqcy",
+      "data": {}
+    },
+    "5e2aiik1t3agmiz4dbyv5bm": {
+      "id": "5e2aiik1t3agmiz4dbyv5bm",
+      "title": "Rail",
+      "desc": "",
+      "updated": 1662858775371,
+      "created": 1636959726408,
+      "custom": {},
+      "fname": "consumer.travel.california.rail",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "93e937011e9a7614c8e66dd5f355c219",
+      "links": [],
+      "anchors": {
+        "hiking": {
+          "type": "header",
+          "text": "Hiking",
+          "value": "hiking",
+          "line": 15,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "sbkfv60zkzxuf0ro309nopz",
+      "data": {}
+    },
+    "gpgjgad8we1ddr4ki0fftgx": {
+      "id": "gpgjgad8we1ddr4ki0fftgx",
+      "title": "Lancaster",
+      "desc": "",
+      "updated": 1639529262129,
+      "created": 1637961865519,
+      "custom": {},
+      "fname": "consumer.travel.california.lancaster",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "417e64e0ac9b90620de1b8fcc70459a0",
+      "links": [],
+      "anchors": {
+        "ride-vs-drive-to-csulb": {
+          "type": "header",
+          "text": "Ride vs Drive to CSULB",
+          "value": "ride-vs-drive-to-csulb",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "ride-vs-drive-to-vegas": {
+          "type": "header",
+          "text": "Ride vs Drive to Vegas",
+          "value": "ride-vs-drive-to-vegas",
+          "line": 44,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "sbkfv60zkzxuf0ro309nopz",
+      "data": {}
+    },
+    "ufztr6xlzn1pujdzcf5argo": {
+      "id": "ufztr6xlzn1pujdzcf5argo",
+      "title": "Airports",
+      "desc": "",
+      "updated": 1652487896038,
+      "created": 1636959672643,
+      "custom": {},
+      "fname": "consumer.travel.airports",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "44acd58175b61cd95a8a764592925035",
+      "links": [],
+      "anchors": {
+        "ams": {
+          "type": "header",
+          "text": "AMS",
+          "value": "ams",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "vie": {
+          "type": "header",
+          "text": "VIE",
+          "value": "vie",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "mad": {
+          "type": "header",
+          "text": "MAD",
+          "value": "mad",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "ewr": {
+          "type": "header",
+          "text": "EWR",
+          "value": "ewr",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "lax": {
+          "type": "header",
+          "text": "LAX",
+          "value": "lax",
+          "line": 23,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "ndat5nbp6paie9ifjyxbqcy",
+      "data": {}
+    },
+    "ev78v13bz1p2cn7zkaso88k": {
+      "id": "ev78v13bz1p2cn7zkaso88k",
+      "title": "Products",
+      "desc": "",
+      "updated": 1648147240954,
+      "created": 1640148795844,
+      "custom": {},
+      "fname": "consumer.products",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "2bb23824b415ab4132fbd5e9425f239b",
+      "links": [],
+      "anchors": {
+        "hard-drives": {
+          "type": "header",
+          "text": "Hard Drives",
+          "value": "hard-drives",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "gcc0ewe20n7anqn94s3vw1p",
+        "5wrj67krfea5opgr0u9g408",
+        "n4udy6la2chdriiddcpo5vb",
+        "g8tu9d9r2gsgmxmq8oo4pfm",
+        "1dtyvxl55dnxbvzzv9m3occ",
+        "0hn4r7lmohyngkfod6fqa7j",
+        "43h31tibetq3dqjt4ww695m",
+        "23j32hchgtnx7o14i919kzx",
+        "0swfi39d66lgvfrl14bjt11",
+        "gmlt1q7gjh4r4ne36qox49s"
+      ],
+      "parent": "wn2fr0o5xhabmh5vfkevsvj",
+      "data": {}
+    },
+    "gmlt1q7gjh4r4ne36qox49s": {
+      "id": "gmlt1q7gjh4r4ne36qox49s",
+      "title": "Water Filter",
+      "desc": "",
+      "updated": 1663532650741,
+      "created": 1663526456751,
+      "custom": {},
+      "fname": "consumer.products.water-filter",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "168d97da2ad12234822b53cf0a449e5f",
+      "links": [],
+      "anchors": {
+        "black-berkey": {
+          "type": "header",
+          "text": "Black Berkey",
+          "value": "black-berkey",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "eco-filtro": {
+          "type": "header",
+          "text": "Eco Filtro",
+          "value": "eco-filtro",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "british-berkefeld": {
+          "type": "header",
+          "text": "British Berkefeld",
+          "value": "british-berkefeld",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "rainfresh-ceramic": {
+          "type": "header",
+          "text": "Rainfresh Ceramic",
+          "value": "rainfresh-ceramic",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "lifestraw-glass-pitcher": {
+          "type": "header",
+          "text": "Lifestraw glass pitcher",
+          "value": "lifestraw-glass-pitcher",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "brands": {
+          "type": "header",
+          "text": "Brands",
+          "value": "brands",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "certifications": {
+          "type": "header",
+          "text": "Certifications",
+          "value": "certifications",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "nsfansi": {
+          "type": "header",
+          "text": "NSF/ANSI",
+          "value": "nsfansi",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "b-corp": {
+          "type": "header",
+          "text": "B-corp",
+          "value": "b-corp",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "0swfi39d66lgvfrl14bjt11": {
+      "id": "0swfi39d66lgvfrl14bjt11",
+      "title": "Shoes",
+      "desc": "",
+      "updated": 1671486224663,
+      "created": 1648705753569,
+      "custom": {},
+      "fname": "consumer.products.shoes",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "850a5c8c6117a93c1ce65337fce2fd5e",
+      "links": [],
+      "anchors": {
+        "environmental": {
+          "type": "header",
+          "text": "Environmental",
+          "value": "environmental",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "23j32hchgtnx7o14i919kzx": {
+      "id": "23j32hchgtnx7o14i919kzx",
+      "title": "Renewable",
+      "desc": "",
+      "updated": 1664211959759,
+      "created": 1641166407628,
+      "custom": {},
+      "fname": "consumer.products.renewable",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "b287bff041b158aeea49e62b52d1bb32",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "43h31tibetq3dqjt4ww695m": {
+      "id": "43h31tibetq3dqjt4ww695m",
+      "title": "Pens",
+      "desc": "",
+      "updated": 1652497976035,
+      "created": 1636937796904,
+      "custom": {},
+      "fname": "consumer.products.pens",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "6b48d184165100b2ff49eb1714382540",
+      "links": [],
+      "anchors": {
+        "refillable-ballpoint-reddit": {
+          "type": "header",
+          "text": "Refillable BallPoint (reddit)",
+          "value": "refillable-ballpoint-reddit",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "eraseable": {
+          "type": "header",
+          "text": "Eraseable",
+          "value": "eraseable",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "good-pens-reddit": {
+          "type": "header",
+          "text": "Good Pens (reddit)",
+          "value": "good-pens-reddit",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "good-pens-random-website": {
+          "type": "header",
+          "text": "Good Pens (random website)",
+          "value": "good-pens-random-website",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "0hn4r7lmohyngkfod6fqa7j": {
+      "id": "0hn4r7lmohyngkfod6fqa7j",
+      "title": "Pencils",
+      "desc": "",
+      "updated": 1671486198748,
+      "created": 1636937862623,
+      "custom": {},
+      "fname": "consumer.products.pencils",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "345c16019c6dd7608131ec0bfc1479e1",
+      "links": [],
+      "anchors": {
+        "mechanical": {
+          "type": "header",
+          "text": "Mechanical",
+          "value": "mechanical",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "wood": {
+          "type": "header",
+          "text": "Wood",
+          "value": "wood",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "1dtyvxl55dnxbvzzv9m3occ": {
+      "id": "1dtyvxl55dnxbvzzv9m3occ",
+      "title": "Paper",
+      "desc": "",
+      "updated": 1671486188474,
+      "created": 1646676906454,
+      "custom": {},
+      "fname": "consumer.products.paper",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "89d156d57b63738fe03a29658d8ca0be",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "g8tu9d9r2gsgmxmq8oo4pfm": {
+      "id": "g8tu9d9r2gsgmxmq8oo4pfm",
+      "title": "Essential Oil",
+      "desc": "",
+      "updated": 1640205148079,
+      "created": 1636938000304,
+      "custom": {},
+      "fname": "consumer.products.essential-oil",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "8e96839c410264f0f2d536877b120878",
+      "links": [],
+      "anchors": {
+        "tea-tree-oil": {
+          "type": "header",
+          "text": "Tea tree oil",
+          "value": "tea-tree-oil",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "n4udy6la2chdriiddcpo5vb": {
+      "id": "n4udy6la2chdriiddcpo5vb",
+      "title": "Electronics",
+      "desc": "",
+      "updated": 1653867851187,
+      "created": 1653867786691,
+      "custom": {},
+      "fname": "consumer.products.electronics",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "5e48f7477249ba3c48f7d19351f6d5d2",
+      "links": [],
+      "anchors": {
+        "environmental": {
+          "type": "header",
+          "text": "Environmental",
+          "value": "environmental",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "5wrj67krfea5opgr0u9g408": {
+      "id": "5wrj67krfea5opgr0u9g408",
+      "title": "Cycles",
+      "desc": "",
+      "updated": 1648150725980,
+      "created": 1648147240866,
+      "custom": {},
+      "fname": "consumer.products.cycles",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "4292d0c33d2f98e6d2b60f5a4101e1a3",
+      "links": [],
+      "anchors": {
+        "size-chart": {
+          "type": "header",
+          "text": "Size Chart",
+          "value": "size-chart",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "hci6qg3064er5rsu0hnq0bw"
+      ],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "hci6qg3064er5rsu0hnq0bw": {
+      "fname": "consumer.products.cycles.giant",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673048564756,
+      "created": 1673048564756,
+      "id": "hci6qg3064er5rsu0hnq0bw",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "wda9cj67y6ylaelwlklawhq"
+      ],
+      "parent": "5wrj67krfea5opgr0u9g408",
+      "data": {},
+      "title": "Giant"
+    },
+    "wda9cj67y6ylaelwlklawhq": {
+      "id": "wda9cj67y6ylaelwlklawhq",
+      "title": "Escape 3 2016",
+      "desc": "",
+      "updated": 1648521855774,
+      "created": 1648521855774,
+      "custom": {},
+      "fname": "consumer.products.cycles.giant.escape-3-2016",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "f2f035de9f73c9131012d02cec23d277",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "hci6qg3064er5rsu0hnq0bw",
+      "data": {}
+    },
+    "gcc0ewe20n7anqn94s3vw1p": {
+      "id": "gcc0ewe20n7anqn94s3vw1p",
+      "title": "Blenders",
+      "desc": "",
+      "updated": 1648511541509,
+      "created": 1648511541509,
+      "custom": {},
+      "fname": "consumer.products.blenders",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "29f045310734e794f7bf4f70d450b5f9",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "ev78v13bz1p2cn7zkaso88k",
+      "data": {}
+    },
+    "zn57yzyn4u8t0upnvhlhh86": {
+      "id": "zn57yzyn4u8t0upnvhlhh86",
+      "title": "Math",
+      "desc": "",
+      "updated": 1664211438611,
+      "created": 1640241217035,
+      "custom": {},
+      "fname": "math",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "0526dbfd89bdb60fd9a97914a7902673",
+      "links": [],
+      "anchors": {
+        "quadratic-formula": {
+          "type": "header",
+          "text": "Quadratic Formula",
+          "value": "quadratic-formula",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "greek-symbols": {
+          "type": "header",
+          "text": "Greek Symbols",
+          "value": "greek-symbols",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "ki4bx0yy1dzpkxvmdsc258e",
+        "c2bbf7hmieopbvn1tvw1bng",
+        "1c645qhq5mwqqq189lc3b10",
+        "q1iz3xjabhtn59vxlyngk52",
+        "c6czd14mdr9354ue3l3vr1d",
+        "c51xs9bfq43bbykiec3wr63"
+      ],
+      "parent": "398cceh65hemaonxc6w22r7",
+      "data": {}
+    },
+    "c51xs9bfq43bbykiec3wr63": {
+      "fname": "math.fourier",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673048564750,
+      "created": 1673048564750,
+      "id": "c51xs9bfq43bbykiec3wr63",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "pws0082b391as5fin3qih16",
+        "fcbju2g8mp5v2zph8ya70b0"
+      ],
+      "parent": "zn57yzyn4u8t0upnvhlhh86",
+      "data": {},
+      "title": "Fourier"
+    },
+    "fcbju2g8mp5v2zph8ya70b0": {
+      "id": "fcbju2g8mp5v2zph8ya70b0",
+      "title": "Transforms",
+      "desc": "",
+      "updated": 1670637089022,
+      "created": 1652461165220,
+      "custom": {},
+      "fname": "math.fourier.transforms",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "cc6e04174932c99f0c19aa88f30feacc",
+      "links": [],
+      "anchors": {
+        "inverse": {
+          "type": "header",
+          "text": "Inverse",
+          "value": "inverse",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "c51xs9bfq43bbykiec3wr63",
+      "data": {}
+    },
+    "pws0082b391as5fin3qih16": {
+      "id": "pws0082b391as5fin3qih16",
+      "title": "Series",
+      "desc": "",
+      "updated": 1670966515981,
+      "created": 1651011253390,
+      "custom": {},
+      "fname": "math.fourier.series",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "4f50c2d946401d9b0852df3168b631e5",
+      "links": [],
+      "anchors": {
+        "fourier-coefficients": {
+          "type": "header",
+          "text": "Fourier Coefficients",
+          "value": "fourier-coefficients",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "even": {
+          "type": "header",
+          "text": "Even",
+          "value": "even",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "odd": {
+          "type": "header",
+          "text": "Odd",
+          "value": "odd",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "half-wave": {
+          "type": "header",
+          "text": "Half-Wave",
+          "value": "half-wave",
+          "line": 38,
+          "column": 0,
+          "depth": 3
+        },
+        "quarter-wave-even": {
+          "type": "header",
+          "text": "Quarter-Wave Even",
+          "value": "quarter-wave-even",
+          "line": 53,
+          "column": 0,
+          "depth": 3
+        },
+        "quarter-wave-odd": {
+          "type": "header",
+          "text": "Quarter-Wave Odd",
+          "value": "quarter-wave-odd",
+          "line": 64,
+          "column": 0,
+          "depth": 3
+        },
+        "alternative-trigonometric-form": {
+          "type": "header",
+          "text": "Alternative Trigonometric Form",
+          "value": "alternative-trigonometric-form",
+          "line": 74,
+          "column": 0,
+          "depth": 3
+        },
+        "exponential-form": {
+          "type": "header",
+          "text": "Exponential Form",
+          "value": "exponential-form",
+          "line": 86,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "c51xs9bfq43bbykiec3wr63",
+      "data": {}
+    },
+    "c6czd14mdr9354ue3l3vr1d": {
+      "id": "c6czd14mdr9354ue3l3vr1d",
+      "title": "Trig",
+      "desc": "",
+      "updated": 1663636998070,
+      "created": 1644511779549,
+      "custom": {},
+      "fname": "math.trig",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "4b6763f98fa4a76121498aef0b35ed3c",
+      "links": [],
+      "anchors": {
+        "trig-identities": {
+          "type": "header",
+          "text": "Trig Identities",
+          "value": "trig-identities",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "zn57yzyn4u8t0upnvhlhh86",
+      "data": {}
+    },
+    "q1iz3xjabhtn59vxlyngk52": {
+      "id": "q1iz3xjabhtn59vxlyngk52",
+      "title": "Transfer Function",
+      "desc": "",
+      "updated": 1671572175076,
+      "created": 1671569681893,
+      "custom": {},
+      "fname": "math.transfer-function",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "10976f168b3992ca638ce864d7ba18fd",
+      "links": [],
+      "anchors": {
+        "second-order-response": {
+          "type": "header",
+          "text": "Second order response",
+          "value": "second-order-response",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "zn57yzyn4u8t0upnvhlhh86",
+      "data": {}
+    },
+    "1c645qhq5mwqqq189lc3b10": {
+      "id": "1c645qhq5mwqqq189lc3b10",
+      "title": "Laplace",
+      "desc": "",
+      "updated": 1664210184859,
+      "created": 1644349613866,
+      "custom": {},
+      "fname": "math.laplace",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "4700655adccd46d52b24c97c856cca50",
+      "links": [],
+      "anchors": {
+        "table": {
+          "type": "header",
+          "text": "Table",
+          "value": "table",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "inverse-laplace": {
+          "type": "header",
+          "text": "Inverse Laplace",
+          "value": "inverse-laplace",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "zn57yzyn4u8t0upnvhlhh86",
+      "data": {}
+    },
+    "c2bbf7hmieopbvn1tvw1bng": {
+      "id": "c2bbf7hmieopbvn1tvw1bng",
+      "title": "Euler",
+      "desc": "",
+      "updated": 1652389196303,
+      "created": 1652196565100,
+      "custom": {},
+      "fname": "math.euler",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "d2362b2ff2910bd3c3647fa3cd0d46b6",
+      "links": [],
+      "anchors": {
+        "eulers-formulas": {
+          "type": "header",
+          "text": "Euler's Formulas",
+          "value": "eulers-formulas",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "eulers-constant": {
+          "type": "header",
+          "text": "Euler's Constant",
+          "value": "eulers-constant",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "zn57yzyn4u8t0upnvhlhh86",
+      "data": {}
+    },
+    "ki4bx0yy1dzpkxvmdsc258e": {
+      "id": "ki4bx0yy1dzpkxvmdsc258e",
+      "title": "Calculus",
+      "desc": "",
+      "updated": 1665517847636,
+      "created": 1644359767399,
+      "custom": {},
+      "fname": "math.calculus",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "34a6720c3ff0450563ee7c9d66b21892",
+      "links": [],
+      "anchors": {
+        "cheat-sheet": {
+          "type": "header",
+          "text": "Cheat Sheet",
+          "value": "cheat-sheet",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "derivatives": {
+          "type": "header",
+          "text": "Derivatives",
+          "value": "derivatives",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "differential-equations": {
+          "type": "header",
+          "text": "Differential Equations",
+          "value": "differential-equations",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "steady-state": {
+          "type": "header",
+          "text": "Steady State",
+          "value": "steady-state",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "classification": {
+          "type": "header",
+          "text": "Classification",
+          "value": "classification",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "general-solution": {
+          "type": "header",
+          "text": "General solution",
+          "value": "general-solution",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "unique-solution": {
+          "type": "header",
+          "text": "Unique solution",
+          "value": "unique-solution",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "method-of-integrating-factor": {
+          "type": "header",
+          "text": "Method of Integrating Factor",
+          "value": "method-of-integrating-factor",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "integration-by-parts": {
+          "type": "header",
+          "text": "Integration by parts",
+          "value": "integration-by-parts",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "zn57yzyn4u8t0upnvhlhh86",
+      "data": {}
+    },
+    "dcbhrrtovhg5rzaathh1vzo": {
+      "id": "dcbhrrtovhg5rzaathh1vzo",
+      "title": "Finance",
+      "desc": "",
+      "updated": 1660191188908,
+      "created": 1660191188908,
+      "custom": {},
+      "fname": "finance",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "8da933a17f547e471f4aeb6272c63ffc",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "272xu0jexne9ooztma4jo52",
+        "lafmq99l7sgcprrmqj77jah"
+      ],
+      "parent": "398cceh65hemaonxc6w22r7",
+      "data": {}
+    },
+    "lafmq99l7sgcprrmqj77jah": {
+      "fname": "finance.tax",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673048564750,
+      "created": 1673048564750,
+      "id": "lafmq99l7sgcprrmqj77jah",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "nmwrwmrzb9r9twf4to4el1r"
+      ],
+      "parent": "dcbhrrtovhg5rzaathh1vzo",
+      "data": {},
+      "title": "Tax"
+    },
+    "nmwrwmrzb9r9twf4to4el1r": {
+      "id": "nmwrwmrzb9r9twf4to4el1r",
+      "title": "Usa",
+      "desc": "",
+      "updated": 1667841741634,
+      "created": 1652467279108,
+      "custom": {},
+      "fname": "finance.tax.usa",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "70b745ac414635849613c3490926e208",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 16
+            },
+            "end": {
+              "line": 3,
+              "column": 10,
+              "offset": 25
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 1,
+              "offset": 92
+            },
+            "end": {
+              "line": 6,
+              "column": 10,
+              "offset": 101
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 1,
+              "offset": 173
+            },
+            "end": {
+              "line": 9,
+              "column": 10,
+              "offset": 182
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 1,
+              "offset": 271
+            },
+            "end": {
+              "line": 13,
+              "column": 10,
+              "offset": 280
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 1,
+              "offset": 451
+            },
+            "end": {
+              "line": 18,
+              "column": 10,
+              "offset": 460
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 1,
+              "offset": 604
+            },
+            "end": {
+              "line": 24,
+              "column": 10,
+              "offset": 613
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 1,
+              "offset": 667
+            },
+            "end": {
+              "line": 27,
+              "column": 10,
+              "offset": 676
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 1,
+              "offset": 833
+            },
+            "end": {
+              "line": 31,
+              "column": 10,
+              "offset": 842
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 1,
+              "offset": 891
+            },
+            "end": {
+              "line": 35,
+              "column": 10,
+              "offset": 900
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 1,
+              "offset": 962
+            },
+            "end": {
+              "line": 39,
+              "column": 10,
+              "offset": 971
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 1,
+              "offset": 1016
+            },
+            "end": {
+              "line": 42,
+              "column": 10,
+              "offset": 1025
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 1,
+              "offset": 1127
+            },
+            "end": {
+              "line": 46,
+              "column": 10,
+              "offset": 1136
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 1,
+              "offset": 1212
+            },
+            "end": {
+              "line": 49,
+              "column": 10,
+              "offset": 1221
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 1,
+              "offset": 1222
+            },
+            "end": {
+              "line": 50,
+              "column": 10,
+              "offset": 1231
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 55,
+              "column": 1,
+              "offset": 1339
+            },
+            "end": {
+              "line": 55,
+              "column": 10,
+              "offset": 1348
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 58,
+              "column": 1,
+              "offset": 1432
+            },
+            "end": {
+              "line": 58,
+              "column": 10,
+              "offset": 1441
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa",
+            "id": "nmwrwmrzb9r9twf4to4el1r",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 62,
+              "column": 1,
+              "offset": 1544
+            },
+            "end": {
+              "line": 62,
+              "column": 10,
+              "offset": 1553
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        }
+      ],
+      "anchors": {
+        "1040": {
+          "type": "header",
+          "text": "1040",
+          "value": "1040",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "4562": {
+          "type": "header",
+          "text": "4562",
+          "value": "4562",
+          "line": 54,
+          "column": 0,
+          "depth": 2
+        },
+        "8863": {
+          "type": "header",
+          "text": "8863",
+          "value": "8863",
+          "line": 60,
+          "column": 0,
+          "depth": 2
+        },
+        "8867": {
+          "type": "header",
+          "text": "8867",
+          "value": "8867",
+          "line": 63,
+          "column": 0,
+          "depth": 2
+        },
+        "8879": {
+          "type": "header",
+          "text": "8879",
+          "value": "8879",
+          "line": 67,
+          "column": 0,
+          "depth": 2
+        },
+        "8990": {
+          "type": "header",
+          "text": "8990",
+          "value": "8990",
+          "line": 51,
+          "column": 0,
+          "depth": 3
+        },
+        "irs": {
+          "type": "header",
+          "text": "IRS",
+          "value": "irs",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "1120-s": {
+          "type": "header",
+          "text": "1120-S",
+          "value": "1120-s",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "schedule-k-1": {
+          "type": "header",
+          "text": "Schedule K-1",
+          "value": "schedule-k-1",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "1125-a": {
+          "type": "header",
+          "text": "1125-A",
+          "value": "1125-a",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "8453-c": {
+          "type": "header",
+          "text": "8453-C",
+          "value": "8453-c",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "8879-s": {
+          "type": "header",
+          "text": "8879-S",
+          "value": "8879-s",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "schedule-1": {
+          "type": "header",
+          "text": "Schedule 1",
+          "value": "schedule-1",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        },
+        "schedule-2": {
+          "type": "header",
+          "text": "Schedule 2",
+          "value": "schedule-2",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        },
+        "schedule-3": {
+          "type": "header",
+          "text": "Schedule 3",
+          "value": "schedule-3",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        },
+        "schedule-d": {
+          "type": "header",
+          "text": "Schedule D",
+          "value": "schedule-d",
+          "line": 44,
+          "column": 0,
+          "depth": 3
+        },
+        "schedule-e": {
+          "type": "header",
+          "text": "Schedule E",
+          "value": "schedule-e",
+          "line": 47,
+          "column": 0,
+          "depth": 3
+        },
+        "phone-system-inquiry-for-business-history": {
+          "type": "header",
+          "text": "Phone System Inquiry for Business History",
+          "value": "phone-system-inquiry-for-business-history",
+          "line": 71,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "hydnbvqwoj4sositrtavdai"
+      ],
+      "parent": "lafmq99l7sgcprrmqj77jah",
+      "data": {}
+    },
+    "hydnbvqwoj4sositrtavdai": {
+      "id": "hydnbvqwoj4sositrtavdai",
+      "title": "Ca",
+      "desc": "",
+      "updated": 1667841760430,
+      "created": 1667841741421,
+      "custom": {},
+      "fname": "finance.tax.usa.ca",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "f9e147ca6f1f978ab7c7117c1de11db8",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 15
+            },
+            "end": {
+              "line": 3,
+              "column": 10,
+              "offset": 24
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 1,
+              "offset": 130
+            },
+            "end": {
+              "line": 7,
+              "column": 10,
+              "offset": 139
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 1,
+              "offset": 270
+            },
+            "end": {
+              "line": 11,
+              "column": 10,
+              "offset": 279
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.business",
+          "alias": "#business",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 1,
+              "offset": 386
+            },
+            "end": {
+              "line": 15,
+              "column": 10,
+              "offset": 395
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.business"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 1,
+              "offset": 600
+            },
+            "end": {
+              "line": 19,
+              "column": 10,
+              "offset": 609
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 1,
+              "offset": 673
+            },
+            "end": {
+              "line": 22,
+              "column": 10,
+              "offset": 682
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 25,
+              "column": 1,
+              "offset": 732
+            },
+            "end": {
+              "line": 25,
+              "column": 10,
+              "offset": 741
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 1,
+              "offset": 790
+            },
+            "end": {
+              "line": 28,
+              "column": 10,
+              "offset": 799
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 31,
+              "column": 1,
+              "offset": 894
+            },
+            "end": {
+              "line": 31,
+              "column": 10,
+              "offset": 903
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "finance.tax.usa.ca",
+            "id": "hydnbvqwoj4sositrtavdai",
+            "vaultName": "notes"
+          },
+          "value": "tags.personal",
+          "alias": "#personal",
+          "position": {
+            "start": {
+              "line": 34,
+              "column": 1,
+              "offset": 952
+            },
+            "end": {
+              "line": 34,
+              "column": 10,
+              "offset": 961
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.personal"
+          }
+        }
+      ],
+      "anchors": {
+        "3514": {
+          "type": "header",
+          "text": "3514",
+          "value": "3514",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        },
+        "3596": {
+          "type": "header",
+          "text": "3596",
+          "value": "3596",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "3801": {
+          "type": "header",
+          "text": "3801",
+          "value": "3801",
+          "line": 36,
+          "column": 0,
+          "depth": 2
+        },
+        "8879": {
+          "type": "header",
+          "text": "8879",
+          "value": "8879",
+          "line": 39,
+          "column": 0,
+          "depth": 2
+        },
+        "ftb": {
+          "type": "header",
+          "text": "FTB",
+          "value": "ftb",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "100-s": {
+          "type": "header",
+          "text": "100-S",
+          "value": "100-s",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "schedule-k-1-100s": {
+          "type": "header",
+          "text": "Schedule K-1 (100S)",
+          "value": "schedule-k-1-100s",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "100-es": {
+          "type": "header",
+          "text": "100-ES",
+          "value": "100-es",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "3805-q": {
+          "type": "header",
+          "text": "3805-Q",
+          "value": "3805-q",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "540-2ez": {
+          "type": "header",
+          "text": "540 (2EZ)",
+          "value": "540-2ez",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        },
+        "schedule-ca-540": {
+          "type": "header",
+          "text": "Schedule CA (540)",
+          "value": "schedule-ca-540",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "payment": {
+          "type": "header",
+          "text": "Payment",
+          "value": "payment",
+          "line": 43,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "nmwrwmrzb9r9twf4to4el1r",
+      "data": {}
+    },
+    "272xu0jexne9ooztma4jo52": {
+      "id": "272xu0jexne9ooztma4jo52",
+      "title": "Cost Benefit",
+      "desc": "",
+      "updated": 1671486320991,
+      "created": 1666806519479,
+      "custom": {},
+      "fname": "finance.cost-benefit",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "65848599f9d853631ec4d637e5fcbb5e",
+      "links": [],
+      "anchors": {
+        "annual-worth": {
+          "type": "header",
+          "text": "Annual Worth",
+          "value": "annual-worth",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "annual": {
+          "type": "header",
+          "text": "Annual",
+          "value": "annual",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "gradient": {
+          "type": "header",
+          "text": "Gradient",
+          "value": "gradient",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "present": {
+          "type": "header",
+          "text": "Present",
+          "value": "present",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "future": {
+          "type": "header",
+          "text": "Future",
+          "value": "future",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "effective-interest": {
+          "type": "header",
+          "text": "Effective Interest",
+          "value": "effective-interest",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "dcbhrrtovhg5rzaathh1vzo",
+      "data": {}
+    },
+    "44oijwqa5kph6kobar7jckg": {
+      "id": "44oijwqa5kph6kobar7jckg",
+      "title": "Electronic",
+      "desc": "",
+      "updated": 1646868188367,
+      "created": 1640241250846,
+      "custom": {},
+      "fname": "electronic",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "400b96124efebc3c730b95f819e9162f",
+      "links": [],
+      "anchors": {
+        "converting-sources": {
+          "type": "header",
+          "text": "Converting Sources",
+          "value": "converting-sources",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "resistor-color-codes": {
+          "type": "header",
+          "text": "Resistor Color Codes",
+          "value": "resistor-color-codes",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "p-v-i-r-relationship": {
+          "type": "header",
+          "text": "P, V, I, R Relationship",
+          "value": "p-v-i-r-relationship",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "complex-impedance": {
+          "type": "header",
+          "text": "Complex Impedance",
+          "value": "complex-impedance",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "digital-logic-gates": {
+          "type": "header",
+          "text": "Digital Logic Gates",
+          "value": "digital-logic-gates",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "transformers": {
+          "type": "header",
+          "text": "Transformers",
+          "value": "transformers",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "1x54226qbahehy4hl8p08ow",
+        "ytu3wrb7vabx9kqsj1lulcu",
+        "72vvdc1f0wz9pgdl4o47t1b"
+      ],
+      "parent": "398cceh65hemaonxc6w22r7",
+      "data": {}
+    },
+    "72vvdc1f0wz9pgdl4o47t1b": {
+      "id": "72vvdc1f0wz9pgdl4o47t1b",
+      "title": "S Domain",
+      "desc": "",
+      "updated": 1670966330592,
+      "created": 1646777643313,
+      "custom": {},
+      "fname": "electronic.s-domain",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "d0128558bf8c6153aee30ba9224cd56c",
+      "links": [],
+      "anchors": {
+        "equivalent-circuits": {
+          "type": "header",
+          "text": "Equivalent Circuits",
+          "value": "equivalent-circuits",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "s-domain-circuit-analysis": {
+          "type": "header",
+          "text": "S Domain Circuit Analysis",
+          "value": "s-domain-circuit-analysis",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "amplitude-modulation": {
+          "type": "header",
+          "text": "Amplitude Modulation",
+          "value": "amplitude-modulation",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "double-sideband": {
+          "type": "header",
+          "text": "Double-Sideband",
+          "value": "double-sideband",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "44oijwqa5kph6kobar7jckg",
+      "data": {}
+    },
+    "ytu3wrb7vabx9kqsj1lulcu": {
+      "id": "ytu3wrb7vabx9kqsj1lulcu",
+      "title": "Mosfet",
+      "desc": "",
+      "updated": 1651076116742,
+      "created": 1649964519198,
+      "custom": {},
+      "fname": "electronic.mosfet",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "9dd4f543454336fad527cd98b9fbc448",
+      "links": [],
+      "anchors": {
+        "enhancement-type": {
+          "type": "header",
+          "text": "Enhancement-Type",
+          "value": "enhancement-type",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "depletion-type": {
+          "type": "header",
+          "text": "Depletion-Type",
+          "value": "depletion-type",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "doping": {
+          "type": "header",
+          "text": "Doping",
+          "value": "doping",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "caluclations-nmosfet-e": {
+          "type": "header",
+          "text": "Caluclations (NMOSFET-E)",
+          "value": "caluclations-nmosfet-e",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "constants": {
+          "type": "header",
+          "text": "Constants",
+          "value": "constants",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "44oijwqa5kph6kobar7jckg",
+      "data": {}
+    },
+    "1x54226qbahehy4hl8p08ow": {
+      "id": "1x54226qbahehy4hl8p08ow",
+      "title": "Filters",
+      "desc": "",
+      "updated": 1671039601475,
+      "created": 1670519968240,
+      "custom": {},
+      "fname": "electronic.filters",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "bb3cd3c797591e8dc6782d8c67c7affa",
+      "links": [],
+      "anchors": {
+        "passive": {
+          "type": "header",
+          "text": "Passive",
+          "value": "passive",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "low-pass": {
+          "type": "header",
+          "text": "Low Pass",
+          "value": "low-pass",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "high-pass": {
+          "type": "header",
+          "text": "High Pass",
+          "value": "high-pass",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "band-pass--reject": {
+          "type": "header",
+          "text": "Band Pass & Reject",
+          "value": "band-pass--reject",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "active": {
+          "type": "header",
+          "text": "Active",
+          "value": "active",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "low-pass--high-pass-sallen-key": {
+          "type": "header",
+          "text": "Low Pass & High Pass Sallen Key",
+          "value": "low-pass--high-pass-sallen-key",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        },
+        "band-pass--reject-combo": {
+          "type": "header",
+          "text": "Band Pass & Reject (Combo)",
+          "value": "band-pass--reject-combo",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "44oijwqa5kph6kobar7jckg",
+      "data": {}
+    },
+    "67vcv6zhh0cxazsfqlaai29": {
+      "id": "67vcv6zhh0cxazsfqlaai29",
+      "title": "Computer",
+      "desc": "",
+      "updated": 1668999100817,
+      "created": 1640062246196,
+      "custom": {},
+      "fname": "computer",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "376e8d4fd9bb4f6997300befa8bdb1f9",
+      "links": [],
+      "anchors": {
+        "chromeos-vs-mac-vs-linux-vs-windows": {
+          "type": "header",
+          "text": "ChromeOS vs Mac vs Linux vs Windows",
+          "value": "chromeos-vs-mac-vs-linux-vs-windows",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "matlab-vs-python": {
+          "type": "header",
+          "text": "Matlab vs Python",
+          "value": "matlab-vs-python",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "ides-and-editors": {
+          "type": "header",
+          "text": "IDEs and Editors",
+          "value": "ides-and-editors",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "x1e9daf7h4e4nykz0u56hf2",
+        "wjrgixg2rt9xkzg0ldu3gl5",
+        "owfsvxtiup2xnmhsydlyfez",
+        "p5vi6pdpl4wwk418shzymb6",
+        "favflnm9r1u6u4tgkzj9lwy",
+        "enjb2w7wdyo2wyg7ek23500",
+        "8jlp33vk61u8j5wabgfaanm",
+        "fam1f4f5zdug0zkht7c8y1t",
+        "g2s187yomivy0vrvbacg1p1",
+        "y7gbch4iee7jpcifcazbaj4",
+        "ff8mayjzbflxo1x6rtl7gse",
+        "xqykp7gb70r4v2riysf0hso",
+        "mfvtanqce4myq3ym3675lbf",
+        "3l5r4y1yy4pctfifqwgwqd8"
+      ],
+      "parent": "398cceh65hemaonxc6w22r7",
+      "data": {}
+    },
+    "3l5r4y1yy4pctfifqwgwqd8": {
+      "id": "3l5r4y1yy4pctfifqwgwqd8",
+      "title": "Youtube Downloader",
+      "desc": "",
+      "updated": 1666808985257,
+      "created": 1637554443589,
+      "custom": {},
+      "fname": "computer.youtube-downloader",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "b1c6d44a30c9bb14f7315a433c5fd6c5",
+      "links": [],
+      "anchors": {
+        "playlist-old-way": {
+          "type": "header",
+          "text": "Playlist old way",
+          "value": "playlist-old-way",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "playlist": {
+          "type": "header",
+          "text": "Playlist",
+          "value": "playlist",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "mfvtanqce4myq3ym3675lbf": {
+      "id": "mfvtanqce4myq3ym3675lbf",
+      "title": "Windows",
+      "desc": "",
+      "updated": 1672859247823,
+      "created": 1640371936505,
+      "custom": {},
+      "fname": "computer.windows",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "1ca011a502ffd56d76fdeb2f2628164b",
+      "links": [],
+      "anchors": {
+        "appdata": {
+          "type": "header",
+          "text": "AppData",
+          "value": "appdata",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "win98": {
+          "type": "header",
+          "text": "Win98",
+          "value": "win98",
+          "line": 15,
+          "column": 0,
+          "depth": 3
+        },
+        "wsl": {
+          "type": "header",
+          "text": "WSL",
+          "value": "wsl",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "list-installed-distros": {
+          "type": "header",
+          "text": "List Installed Distros",
+          "value": "list-installed-distros",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "set-version": {
+          "type": "header",
+          "text": "Set version",
+          "value": "set-version",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "set-default-linux-distribution": {
+          "type": "header",
+          "text": "Set default Linux distribution",
+          "value": "set-default-linux-distribution",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "unregister-and-uninstall": {
+          "type": "header",
+          "text": "Unregister and Uninstall",
+          "value": "unregister-and-uninstall",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "533vd80k0sv38wpb64lkbjh"
+      ],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "533vd80k0sv38wpb64lkbjh": {
+      "id": "533vd80k0sv38wpb64lkbjh",
+      "title": "Visualplace",
+      "desc": "",
+      "updated": 1640498521642,
+      "created": 1640385972216,
+      "custom": {},
+      "fname": "computer.windows.visualplace",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "8672dd79356a60193c7f766289838899",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "mfvtanqce4myq3ym3675lbf",
+      "data": {}
+    },
+    "xqykp7gb70r4v2riysf0hso": {
+      "id": "xqykp7gb70r4v2riysf0hso",
+      "title": "Vscode",
+      "desc": "",
+      "updated": 1671485831060,
+      "created": 1657215159896,
+      "custom": {},
+      "fname": "computer.vscode",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "9b970f52fb26128908f3cfec61b8e8b9",
+      "links": [],
+      "anchors": {
+        "extensions": {
+          "type": "header",
+          "text": "Extensions",
+          "value": "extensions",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "terminals-manager": {
+          "type": "header",
+          "text": "Terminals Manager",
+          "value": "terminals-manager",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "erpnext": {
+          "type": "header",
+          "text": "ERPNext",
+          "value": "erpnext",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "nbhw1adu30ivdvke1pj2p7j"
+      ],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "nbhw1adu30ivdvke1pj2p7j": {
+      "fname": "computer.vscode.dendron",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1673048564754,
+      "created": 1673048564754,
+      "id": "nbhw1adu30ivdvke1pj2p7j",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "abtizsuqkr3b4b9117chv25"
+      ],
+      "parent": "xqykp7gb70r4v2riysf0hso",
+      "data": {},
+      "title": "Dendron"
+    },
+    "abtizsuqkr3b4b9117chv25": {
+      "id": "abtizsuqkr3b4b9117chv25",
+      "title": "Mermaid",
+      "desc": "",
+      "updated": 1671485878485,
+      "created": 1657236106308,
+      "custom": {},
+      "fname": "computer.vscode.dendron.mermaid",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "adcadeb5a180edd4e9732103d3c52f43",
+      "links": [],
+      "anchors": {
+        "about": {
+          "type": "header",
+          "text": "About",
+          "value": "about",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "flowcharts": {
+          "type": "header",
+          "text": "Flowcharts",
+          "value": "flowcharts",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "nbhw1adu30ivdvke1pj2p7j",
+      "data": {}
+    },
+    "ff8mayjzbflxo1x6rtl7gse": {
+      "id": "ff8mayjzbflxo1x6rtl7gse",
+      "title": "Vim",
+      "desc": "",
+      "updated": 1640814157620,
+      "created": 1638143057403,
+      "custom": {},
+      "fname": "computer.vim",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "3283bc27e5704575691debaff9cf7e46",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "computer.vim",
+            "id": "ff8mayjzbflxo1x6rtl7gse",
+            "vaultName": "notes"
+          },
+          "value": "user.a",
+          "alias": "@a",
+          "position": {
+            "start": {
+              "line": 311,
+              "column": 3,
+              "offset": 6796
+            },
+            "end": {
+              "line": 311,
+              "column": 5,
+              "offset": 6798
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.a"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "computer.vim",
+            "id": "ff8mayjzbflxo1x6rtl7gse",
+            "vaultName": "notes"
+          },
+          "value": "tags.th",
+          "alias": "#th",
+          "position": {
+            "start": {
+              "line": 429,
+              "column": 42,
+              "offset": 9590
+            },
+            "end": {
+              "line": 429,
+              "column": 45,
+              "offset": 9593
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.th"
+          }
+        }
+      ],
+      "anchors": {
+        "vim-cheat-sheet": {
+          "type": "header",
+          "text": "Vim Cheat Sheet",
+          "value": "vim-cheat-sheet",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "global": {
+          "type": "header",
+          "text": "Global",
+          "value": "global",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "run-vimtutor-in-a-terminal-to-learn-the-first-vim-commands": {
+          "type": "header",
+          "text": "Run vimtutor in a terminal to learn the first Vim commands.",
+          "value": "run-vimtutor-in-a-terminal-to-learn-the-first-vim-commands",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "cursor-movement": {
+          "type": "header",
+          "text": "Cursor movement",
+          "value": "cursor-movement",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "prefix-a-cursor-movement-command-with-a-number-to-repeat-it-for-example-4j-moves-down-4-lines": {
+          "type": "header",
+          "text": "Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.",
+          "value": "prefix-a-cursor-movement-command-with-a-number-to-repeat-it-for-example-4j-moves-down-4-lines",
+          "line": 109,
+          "column": 0,
+          "depth": 3
+        },
+        "insert-mode---insertingappending-text": {
+          "type": "header",
+          "text": "Insert mode - inserting/appending text",
+          "value": "insert-mode---insertingappending-text",
+          "line": 111,
+          "column": 0,
+          "depth": 3
+        },
+        "editing": {
+          "type": "header",
+          "text": "Editing",
+          "value": "editing",
+          "line": 147,
+          "column": 0,
+          "depth": 3
+        },
+        "marking-text-visual-mode": {
+          "type": "header",
+          "text": "Marking text (visual mode)",
+          "value": "marking-text-visual-mode",
+          "line": 189,
+          "column": 0,
+          "depth": 3
+        },
+        "instead-of-b-or-b-one-can-also-use--or--respectively": {
+          "type": "header",
+          "text": "Instead of b or B one can also use ( or { respectively.",
+          "value": "instead-of-b-or-b-one-can-also-use--or--respectively",
+          "line": 217,
+          "column": 0,
+          "depth": 3
+        },
+        "visual-commands": {
+          "type": "header",
+          "text": "Visual commands",
+          "value": "visual-commands",
+          "line": 219,
+          "column": 0,
+          "depth": 3
+        },
+        "registers-are-being-stored-in-viminfo-and-will-be-loaded-again-on-next-restart-of-vim": {
+          "type": "header",
+          "text": "Registers are being stored in ~/.viminfo, and will be loaded again on next restart of vim.",
+          "value": "registers-are-being-stored-in-viminfo-and-will-be-loaded-again-on-next-restart-of-vim",
+          "line": 247,
+          "column": 0,
+          "depth": 3
+        },
+        "special-registers": {
+          "type": "header",
+          "text": "Special registers:",
+          "value": "special-registers",
+          "line": 249,
+          "column": 0,
+          "depth": 3
+        },
+        "marks-and-positions": {
+          "type": "header",
+          "text": "Marks and positions",
+          "value": "marks-and-positions",
+          "line": 275,
+          "column": 0,
+          "depth": 3
+        },
+        "to-jump-to-a-mark-you-can-either-use-a-backtick--or-an-apostrophe--using-an-apostrophe-jumps-to-the-beginning-first-non-blank-of-the-line-holding-the-mark": {
+          "type": "header",
+          "text": "To jump to a mark you can either use a backtick (`) or an apostrophe ('). Using an apostrophe jumps to the beginning (first non-blank) of the line holding the mark.",
+          "value": "to-jump-to-a-mark-you-can-either-use-a-backtick--or-an-apostrophe--using-an-apostrophe-jumps-to-the-beginning-first-non-blank-of-the-line-holding-the-mark",
+          "line": 309,
+          "column": 0,
+          "depth": 3
+        },
+        "macros": {
+          "type": "header",
+          "text": "Macros",
+          "value": "macros",
+          "line": 311,
+          "column": 0,
+          "depth": 3
+        },
+        "cut-and-paste": {
+          "type": "header",
+          "text": "Cut and paste",
+          "value": "cut-and-paste",
+          "line": 321,
+          "column": 0,
+          "depth": 3
+        },
+        "indent-text": {
+          "type": "header",
+          "text": "Indent text",
+          "value": "indent-text",
+          "line": 355,
+          "column": 0,
+          "depth": 3
+        },
+        "exiting": {
+          "type": "header",
+          "text": "Exiting",
+          "value": "exiting",
+          "line": 377,
+          "column": 0,
+          "depth": 3
+        },
+        "search-and-replace": {
+          "type": "header",
+          "text": "Search and replace",
+          "value": "search-and-replace",
+          "line": 391,
+          "column": 0,
+          "depth": 3
+        },
+        "search-in-multiple-files": {
+          "type": "header",
+          "text": "Search in multiple files",
+          "value": "search-in-multiple-files",
+          "line": 409,
+          "column": 0,
+          "depth": 3
+        },
+        "tabs": {
+          "type": "header",
+          "text": "Tabs",
+          "value": "tabs",
+          "line": 423,
+          "column": 0,
+          "depth": 3
+        },
+        "working-with-multiple-files": {
+          "type": "header",
+          "text": "Working with multiple files",
+          "value": "working-with-multiple-files",
+          "line": 443,
+          "column": 0,
+          "depth": 3
+        },
+        "diff": {
+          "type": "header",
+          "text": "Diff",
+          "value": "diff",
+          "line": 487,
+          "column": 0,
+          "depth": 3
+        },
+        "the-commands-for-folding-eg-za-operate-on-one-level-to-operate-on-all-levels-use-uppercase-letters-eg-za": {
+          "type": "header",
+          "text": "The commands for folding (e.g. za) operate on one level. To operate on all levels, use uppercase letters (e.g. zA).",
+          "value": "the-commands-for-folding-eg-za-operate-on-one-level-to-operate-on-all-levels-use-uppercase-letters-eg-za",
+          "line": 519,
+          "column": 0,
+          "depth": 3
+        },
+        "to-view-the-differences-of-files-one-can-directly-start-vim-in-diff-mode-by-running-vimdiff-in-a-terminal-one-can-even-set-this-as-git-difftool": {
+          "type": "header",
+          "text": "To view the differences of files, one can directly start Vim in diff mode by running vimdiff in a terminal. One can even set this as git difftool.",
+          "value": "to-view-the-differences-of-files-one-can-directly-start-vim-in-diff-mode-by-running-vimdiff-in-a-terminal-one-can-even-set-this-as-git-difftool",
+          "line": 521,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "y7gbch4iee7jpcifcazbaj4": {
+      "id": "y7gbch4iee7jpcifcazbaj4",
+      "title": "Python",
+      "desc": "",
+      "updated": 1655583946092,
+      "created": 1644356082021,
+      "custom": {},
+      "fname": "computer.python",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "c5f470d55d2f64e4cf37746b785a6c3e",
+      "links": [],
+      "anchors": {
+        "virtual-environment": {
+          "type": "header",
+          "text": "Virtual environment",
+          "value": "virtual-environment",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "v1nmqro5vbvqh7audixiwev",
+        "kbo66s4oyscxd46dtb9ghxh"
+      ],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "kbo66s4oyscxd46dtb9ghxh": {
+      "id": "kbo66s4oyscxd46dtb9ghxh",
+      "title": "Tkinter",
+      "desc": "",
+      "updated": 1650162640344,
+      "created": 1650162399785,
+      "custom": {},
+      "fname": "computer.python.tkinter",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "53b803a83427959b470da9aaf12af0d7",
+      "links": [],
+      "anchors": {
+        "root-window": {
+          "type": "header",
+          "text": "Root window",
+          "value": "root-window",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "button": {
+          "type": "header",
+          "text": "Button",
+          "value": "button",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "button-command": {
+          "type": "header",
+          "text": "Button command",
+          "value": "button-command",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "background-color": {
+          "type": "header",
+          "text": "Background color",
+          "value": "background-color",
+          "line": 23,
+          "column": 0,
+          "depth": 3
+        },
+        "pack": {
+          "type": "header",
+          "text": "Pack",
+          "value": "pack",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "y7gbch4iee7jpcifcazbaj4",
+      "data": {}
+    },
+    "v1nmqro5vbvqh7audixiwev": {
+      "id": "v1nmqro5vbvqh7audixiwev",
+      "title": "Cv2",
+      "desc": "",
+      "updated": 1650235608729,
+      "created": 1649801729257,
+      "custom": {},
+      "fname": "computer.python.cv2",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "db49e00dd7c549f3ae7c3eca9fceb1af",
+      "links": [],
+      "anchors": {
+        "get-image": {
+          "type": "header",
+          "text": "Get image",
+          "value": "get-image",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "image-attributes": {
+          "type": "header",
+          "text": "image attributes",
+          "value": "image-attributes",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "image-resize": {
+          "type": "header",
+          "text": "image resize",
+          "value": "image-resize",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "show-image": {
+          "type": "header",
+          "text": "show image",
+          "value": "show-image",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "crop-image": {
+          "type": "header",
+          "text": "crop image",
+          "value": "crop-image",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "warp-perspective": {
+          "type": "header",
+          "text": "warp perspective",
+          "value": "warp-perspective",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "rotate": {
+          "type": "header",
+          "text": "rotate",
+          "value": "rotate",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        },
+        "threshold": {
+          "type": "header",
+          "text": "threshold",
+          "value": "threshold",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "y7gbch4iee7jpcifcazbaj4",
+      "data": {}
+    },
+    "g2s187yomivy0vrvbacg1p1": {
+      "id": "g2s187yomivy0vrvbacg1p1",
+      "title": "Linux",
+      "desc": "",
+      "updated": 1671485432900,
+      "created": 1641569005901,
+      "custom": {},
+      "fname": "computer.linux",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "ff8454de3bf8416a6c70338f5884adc1",
+      "links": [],
+      "anchors": {
+        "nix-permissions": {
+          "type": "header",
+          "text": "*NIX Permissions",
+          "value": "nix-permissions",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "extract-directory-of-targz-files": {
+          "type": "header",
+          "text": "Extract Directory of tar.gz files",
+          "value": "extract-directory-of-targz-files",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "extract-directory-of-tar-files": {
+          "type": "header",
+          "text": "Extract Directory of .tar files",
+          "value": "extract-directory-of-tar-files",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "list-and-delete-first-5-files": {
+          "type": "header",
+          "text": "List and delete first 5 files",
+          "value": "list-and-delete-first-5-files",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        },
+        "apt-vs-apt-get": {
+          "type": "header",
+          "text": "apt vs apt-get",
+          "value": "apt-vs-apt-get",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "apt": {
+          "type": "header",
+          "text": "APT",
+          "value": "apt",
+          "line": 46,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "oofsw2vduzfhbonj7tnwolp",
+        "qfhatiojg542x6a4yprmtz8",
+        "8um63expliuf60a3ipojudy"
+      ],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "8um63expliuf60a3ipojudy": {
+      "id": "8um63expliuf60a3ipojudy",
+      "title": "Raspberrypi",
+      "desc": "",
+      "updated": 1671485779401,
+      "created": 1642472020670,
+      "custom": {},
+      "fname": "computer.linux.raspberrypi",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "8567cf9b08d5a4e14f1ebd0f4b1141b0",
+      "links": [],
+      "anchors": {
+        "software": {
+          "type": "header",
+          "text": "Software",
+          "value": "software",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "headless": {
+          "type": "header",
+          "text": "Headless",
+          "value": "headless",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "hardware": {
+          "type": "header",
+          "text": "Hardware",
+          "value": "hardware",
+          "line": 34,
+          "column": 0,
+          "depth": 1
+        },
+        "io": {
+          "type": "header",
+          "text": "I/O",
+          "value": "io",
+          "line": 35,
+          "column": 0,
+          "depth": 2
+        },
+        "header": {
+          "type": "header",
+          "text": "Header",
+          "value": "header",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "g2s187yomivy0vrvbacg1p1",
+      "data": {}
+    },
+    "qfhatiojg542x6a4yprmtz8": {
+      "id": "qfhatiojg542x6a4yprmtz8",
+      "title": "Debian",
+      "desc": "",
+      "updated": 1659219845146,
+      "created": 1658540469218,
+      "custom": {},
+      "fname": "computer.linux.debian",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "e25074682dc4183a86f9bc9f71aeb53f",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "computer.linux.debian",
+            "id": "qfhatiojg542x6a4yprmtz8",
+            "vaultName": "notes"
+          },
+          "value": "computer.docker",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 5,
+              "offset": 289
+            },
+            "end": {
+              "line": 26,
+              "column": 24,
+              "offset": 308
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "computer.docker"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "computer.linux.debian",
+            "id": "qfhatiojg542x6a4yprmtz8",
+            "vaultName": "notes"
+          },
+          "value": "computer.docker",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 1,
+              "offset": 883
+            },
+            "end": {
+              "line": 42,
+              "column": 55,
+              "offset": 937
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "computer.docker",
+            "anchorHeader": "add-user--post-install-setup,1:#*"
+          }
+        }
+      ],
+      "anchors": {
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "config": {
+          "type": "header",
+          "text": "Config",
+          "value": "config",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "create-sudo-user": {
+          "type": "header",
+          "text": "Create Sudo User",
+          "value": "create-sudo-user",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "": {
+          "type": "header",
+          "text": "",
+          "value": "",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        },
+        "add-swap": {
+          "type": "header",
+          "text": "Add Swap",
+          "value": "add-swap",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "g2s187yomivy0vrvbacg1p1",
+      "data": {}
+    },
+    "oofsw2vduzfhbonj7tnwolp": {
+      "id": "oofsw2vduzfhbonj7tnwolp",
+      "title": "Bash",
+      "desc": "",
+      "updated": 1671485538963,
+      "created": 1658020164965,
+      "custom": {},
+      "fname": "computer.linux.bash",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "be73c2757abe51114e79fdd41ddf36e0",
+      "links": [],
+      "anchors": {
+        "string-manipulation": {
+          "type": "header",
+          "text": "String Manipulation",
+          "value": "string-manipulation",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "rename-folder-of-files": {
+          "type": "header",
+          "text": "Rename folder of files",
+          "value": "rename-folder-of-files",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        },
+        "functions": {
+          "type": "header",
+          "text": "Functions",
+          "value": "functions",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        },
+        "for-loop": {
+          "type": "header",
+          "text": "For loop",
+          "value": "for-loop",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "g2s187yomivy0vrvbacg1p1",
+      "data": {}
+    },
+    "fam1f4f5zdug0zkht7c8y1t": {
+      "id": "fam1f4f5zdug0zkht7c8y1t",
+      "title": "Google Drive",
+      "desc": "",
+      "updated": 1650319896181,
+      "created": 1644282366843,
+      "custom": {},
+      "fname": "computer.google-drive",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "054e15ad964b53d9012d4f2d81c789e9",
+      "links": [],
+      "anchors": {
+        "image-hosting": {
+          "type": "header",
+          "text": "Image Hosting",
+          "value": "image-hosting",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "8jlp33vk61u8j5wabgfaanm": {
+      "id": "8jlp33vk61u8j5wabgfaanm",
+      "title": "Git",
+      "desc": "",
+      "updated": 1669520693972,
+      "created": 1637553970482,
+      "custom": {},
+      "fname": "computer.git",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "23a20ab23ce744217db73c3e0b16e4dc",
+      "links": [],
+      "anchors": {
+        "update": {
+          "type": "header",
+          "text": "Update",
+          "value": "update",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "windows": {
+          "type": "header",
+          "text": "Windows",
+          "value": "windows",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "operations": {
+          "type": "header",
+          "text": "Operations",
+          "value": "operations",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "stash-pull-apply": {
+          "type": "header",
+          "text": "Stash Pull Apply",
+          "value": "stash-pull-apply",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "remove-from-staging": {
+          "type": "header",
+          "text": "Remove from staging",
+          "value": "remove-from-staging",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "remove-all-from-staging": {
+          "type": "header",
+          "text": "Remove all from staging",
+          "value": "remove-all-from-staging",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "see-all-branches": {
+          "type": "header",
+          "text": "See all branches",
+          "value": "see-all-branches",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "log": {
+          "type": "header",
+          "text": "Log",
+          "value": "log",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "status": {
+          "type": "header",
+          "text": "Status",
+          "value": "status",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "files": {
+          "type": "header",
+          "text": "Files",
+          "value": "files",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "gitconfig": {
+          "type": "header",
+          "text": ".git/config",
+          "value": "gitconfig",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "enjb2w7wdyo2wyg7ek23500": {
+      "id": "enjb2w7wdyo2wyg7ek23500",
+      "title": "Frappe Framework",
+      "desc": "",
+      "updated": 1660082665282,
+      "created": 1640382050940,
+      "custom": {},
+      "fname": "computer.frappe-framework",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "0786b55ae0e12c5983f2bbbc54d39ba7",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "computer.frappe-framework",
+            "id": "enjb2w7wdyo2wyg7ek23500",
+            "vaultName": "notes"
+          },
+          "value": "computer.docker",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 1,
+              "offset": 1126
+            },
+            "end": {
+              "line": 37,
+              "column": 36,
+              "offset": 1161
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "computer.docker",
+            "anchorHeader": "wsl-setup,1:#*"
+          }
+        }
+      ],
+      "anchors": {
+        "custom-app": {
+          "type": "header",
+          "text": "Custom App",
+          "value": "custom-app",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "creating-doctypes": {
+          "type": "header",
+          "text": "Creating Doctypes",
+          "value": "creating-doctypes",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "user-translations": {
+          "type": "header",
+          "text": "User Translations",
+          "value": "user-translations",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        },
+        "webapp-architecture": {
+          "type": "header",
+          "text": "WebApp Architecture",
+          "value": "webapp-architecture",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        },
+        "developer-setup": {
+          "type": "header",
+          "text": "Developer Setup",
+          "value": "developer-setup",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        },
+        "docker-dev-setup": {
+          "type": "header",
+          "text": "Docker Dev Setup",
+          "value": "docker-dev-setup",
+          "line": 41,
+          "column": 0,
+          "depth": 3
+        },
+        "url": {
+          "type": "header",
+          "text": "URL",
+          "value": "url",
+          "line": 58,
+          "column": 0,
+          "depth": 3
+        },
+        "db-restore-with-files-in-frappe-bench": {
+          "type": "header",
+          "text": "DB Restore with files in frappe-bench/",
+          "value": "db-restore-with-files-in-frappe-bench",
+          "line": 61,
+          "column": 0,
+          "depth": 3
+        },
+        "dev-setup-from-azure-vhd": {
+          "type": "header",
+          "text": "Dev Setup from Azure VHD",
+          "value": "dev-setup-from-azure-vhd",
+          "line": 65,
+          "column": 0,
+          "depth": 3
+        },
+        "docker-production-setup": {
+          "type": "header",
+          "text": "Docker Production Setup",
+          "value": "docker-production-setup",
+          "line": 91,
+          "column": 0,
+          "depth": 2
+        },
+        "traefik-config": {
+          "type": "header",
+          "text": "Traefik Config",
+          "value": "traefik-config",
+          "line": 92,
+          "column": 0,
+          "depth": 3
+        },
+        "common-commands": {
+          "type": "header",
+          "text": "Common Commands",
+          "value": "common-commands",
+          "line": 98,
+          "column": 0,
+          "depth": 2
+        },
+        "new-site": {
+          "type": "header",
+          "text": "New Site",
+          "value": "new-site",
+          "line": 99,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "7shljd4pnzbwlgw4toqjptz",
+        "flffs7jn2f4g2opjkghy91l"
+      ],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "flffs7jn2f4g2opjkghy91l": {
+      "id": "flffs7jn2f4g2opjkghy91l",
+      "title": "Erpnext",
+      "desc": "",
+      "updated": 1659224077260,
+      "created": 1640385573525,
+      "custom": {},
+      "fname": "computer.frappe-framework.erpnext",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "39f0e99d532b31f9d9a4fff6fcd3c19c",
+      "links": [],
+      "anchors": {
+        "doctype-functions": {
+          "type": "header",
+          "text": "Doctype Functions",
+          "value": "doctype-functions",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "prices": {
+          "type": "header",
+          "text": "Prices",
+          "value": "prices",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "price-list": {
+          "type": "header",
+          "text": "Price List",
+          "value": "price-list",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "item-price-list": {
+          "type": "header",
+          "text": "Item Price List",
+          "value": "item-price-list",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "pricing-rule": {
+          "type": "header",
+          "text": "Pricing Rule",
+          "value": "pricing-rule",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "selling": {
+          "type": "header",
+          "text": "Selling",
+          "value": "selling",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        },
+        "lead": {
+          "type": "header",
+          "text": "Lead",
+          "value": "lead",
+          "line": 59,
+          "column": 0,
+          "depth": 3
+        },
+        "opportunity": {
+          "type": "header",
+          "text": "Opportunity",
+          "value": "opportunity",
+          "line": 70,
+          "column": 0,
+          "depth": 3
+        },
+        "sales-order": {
+          "type": "header",
+          "text": "Sales Order",
+          "value": "sales-order",
+          "line": 88,
+          "column": 0,
+          "depth": 3
+        },
+        "quotation": {
+          "type": "header",
+          "text": "Quotation",
+          "value": "quotation",
+          "line": 123,
+          "column": 0,
+          "depth": 3
+        },
+        "buying": {
+          "type": "header",
+          "text": "Buying",
+          "value": "buying",
+          "line": 146,
+          "column": 0,
+          "depth": 2
+        },
+        "supplier": {
+          "type": "header",
+          "text": "Supplier",
+          "value": "supplier",
+          "line": 158,
+          "column": 0,
+          "depth": 3
+        },
+        "request-for-quotation": {
+          "type": "header",
+          "text": "Request For Quotation",
+          "value": "request-for-quotation",
+          "line": 176,
+          "column": 0,
+          "depth": 3
+        },
+        "supplier-quotation": {
+          "type": "header",
+          "text": "Supplier Quotation",
+          "value": "supplier-quotation",
+          "line": 192,
+          "column": 0,
+          "depth": 3
+        },
+        "purchase-order": {
+          "type": "header",
+          "text": "Purchase Order",
+          "value": "purchase-order",
+          "line": 213,
+          "column": 0,
+          "depth": 3
+        },
+        "manufacturing": {
+          "type": "header",
+          "text": "Manufacturing",
+          "value": "manufacturing",
+          "line": 248,
+          "column": 0,
+          "depth": 2
+        },
+        "operation": {
+          "type": "header",
+          "text": "Operation",
+          "value": "operation",
+          "line": 264,
+          "column": 0,
+          "depth": 3
+        },
+        "workstation": {
+          "type": "header",
+          "text": "Workstation",
+          "value": "workstation",
+          "line": 277,
+          "column": 0,
+          "depth": 3
+        },
+        "work-order": {
+          "type": "header",
+          "text": "Work Order",
+          "value": "work-order",
+          "line": 290,
+          "column": 0,
+          "depth": 3
+        },
+        "job-card": {
+          "type": "header",
+          "text": "Job Card",
+          "value": "job-card",
+          "line": 312,
+          "column": 0,
+          "depth": 3
+        },
+        "item": {
+          "type": "header",
+          "text": "Item",
+          "value": "item",
+          "line": 330,
+          "column": 0,
+          "depth": 3
+        },
+        "bom": {
+          "type": "header",
+          "text": "BOM",
+          "value": "bom",
+          "line": 409,
+          "column": 0,
+          "depth": 3
+        },
+        "material-request": {
+          "type": "header",
+          "text": "Material Request",
+          "value": "material-request",
+          "line": 438,
+          "column": 0,
+          "depth": 3
+        },
+        "request-for-quotation-1": {
+          "type": "header",
+          "text": "Request for Quotation",
+          "value": "request-for-quotation-1",
+          "line": 452,
+          "column": 0,
+          "depth": 3
+        },
+        "production-plan": {
+          "type": "header",
+          "text": "Production Plan",
+          "value": "production-plan",
+          "line": 466,
+          "column": 0,
+          "depth": 3
+        },
+        "stock-entry": {
+          "type": "header",
+          "text": "Stock Entry",
+          "value": "stock-entry",
+          "line": 486,
+          "column": 0,
+          "depth": 3
+        },
+        "new-installation-import-order": {
+          "type": "header",
+          "text": "New Installation Import order",
+          "value": "new-installation-import-order",
+          "line": 508,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "enjb2w7wdyo2wyg7ek23500",
+      "data": {}
+    },
+    "7shljd4pnzbwlgw4toqjptz": {
+      "id": "7shljd4pnzbwlgw4toqjptz",
+      "title": "Email O365",
+      "desc": "",
+      "updated": 1662413120223,
+      "created": 1641842824499,
+      "custom": {},
+      "fname": "computer.frappe-framework.email-o365",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "9ffc408d224663e3f2fe911906b3aed3",
+      "links": [],
+      "anchors": {
+        "doctype": {
+          "type": "header",
+          "text": "Doctype",
+          "value": "doctype",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "email-domain---pre-jan-31": {
+          "type": "header",
+          "text": "Email Domain - pre Jan 31",
+          "value": "email-domain---pre-jan-31",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "email-domain---post-jan-31": {
+          "type": "header",
+          "text": "Email Domain - post Jan 31",
+          "value": "email-domain---post-jan-31",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "email-address": {
+          "type": "header",
+          "text": "Email Address",
+          "value": "email-address",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "enjb2w7wdyo2wyg7ek23500",
+      "data": {}
+    },
+    "favflnm9r1u6u4tgkzj9lwy": {
+      "id": "favflnm9r1u6u4tgkzj9lwy",
+      "title": "Domain",
+      "desc": "",
+      "updated": 1671485284304,
+      "created": 1671480010021,
+      "custom": {},
+      "fname": "computer.domain",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "1cb52b0d1b9a550269fb77f24d48a123",
+      "links": [],
+      "anchors": {
+        "subdomain-enumeration": {
+          "type": "header",
+          "text": "Subdomain enumeration",
+          "value": "subdomain-enumeration",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "manual": {
+          "type": "header",
+          "text": "Manual",
+          "value": "manual",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "p5vi6pdpl4wwk418shzymb6": {
+      "id": "p5vi6pdpl4wwk418shzymb6",
+      "title": "Docker",
+      "desc": "",
+      "updated": 1657668785147,
+      "created": 1640494427533,
+      "custom": {},
+      "fname": "computer.docker",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "ce6f236eda372fc123052291ad271ab7",
+      "links": [
+        {
+          "from": {
+            "fname": "computer.frappe-framework",
+            "id": "enjb2w7wdyo2wyg7ek23500",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 1,
+              "offset": 1126
+            },
+            "end": {
+              "line": 37,
+              "column": 36,
+              "offset": 1161
+            },
+            "indent": []
+          },
+          "value": "computer.docker"
+        },
+        {
+          "from": {
+            "fname": "computer.linux.debian",
+            "id": "qfhatiojg542x6a4yprmtz8",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 26,
+              "column": 5,
+              "offset": 289
+            },
+            "end": {
+              "line": 26,
+              "column": 24,
+              "offset": 308
+            },
+            "indent": []
+          },
+          "value": "computer.docker"
+        },
+        {
+          "from": {
+            "fname": "computer.linux.debian",
+            "id": "qfhatiojg542x6a4yprmtz8",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 1,
+              "offset": 883
+            },
+            "end": {
+              "line": 42,
+              "column": 55,
+              "offset": 937
+            },
+            "indent": []
+          },
+          "value": "computer.docker"
+        }
+      ],
+      "anchors": {
+        "definition": {
+          "type": "header",
+          "text": "Definition",
+          "value": "definition",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "dockerfiles": {
+          "type": "header",
+          "text": "Dockerfiles",
+          "value": "dockerfiles",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "images": {
+          "type": "header",
+          "text": "Images",
+          "value": "images",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "container": {
+          "type": "header",
+          "text": "Container",
+          "value": "container",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "install": {
+          "type": "header",
+          "text": "Install",
+          "value": "install",
+          "line": 17,
+          "column": 0,
+          "depth": 1
+        },
+        "ubuntu-server": {
+          "type": "header",
+          "text": "Ubuntu Server",
+          "value": "ubuntu-server",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "wsl-setup": {
+          "type": "header",
+          "text": "WSL setup",
+          "value": "wsl-setup",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "add-user--post-install-setup": {
+          "type": "header",
+          "text": "Add User / Post Install Setup",
+          "value": "add-user--post-install-setup",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "operations": {
+          "type": "header",
+          "text": "Operations",
+          "value": "operations",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        },
+        "list-all-containers": {
+          "type": "header",
+          "text": "List all containers",
+          "value": "list-all-containers",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        },
+        "filters": {
+          "type": "header",
+          "text": "Filters",
+          "value": "filters",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "stop-all-containers": {
+          "type": "header",
+          "text": "Stop all containers",
+          "value": "stop-all-containers",
+          "line": 38,
+          "column": 0,
+          "depth": 3
+        },
+        "start-a-container": {
+          "type": "header",
+          "text": "Start a container",
+          "value": "start-a-container",
+          "line": 41,
+          "column": 0,
+          "depth": 3
+        },
+        "restart-policy": {
+          "type": "header",
+          "text": "Restart Policy",
+          "value": "restart-policy",
+          "line": 44,
+          "column": 0,
+          "depth": 3
+        },
+        "startup-behaviour": {
+          "type": "header",
+          "text": "Startup Behaviour",
+          "value": "startup-behaviour",
+          "line": 51,
+          "column": 0,
+          "depth": 3
+        },
+        "remove-all-containers": {
+          "type": "header",
+          "text": "Remove all containers",
+          "value": "remove-all-containers",
+          "line": 58,
+          "column": 0,
+          "depth": 3
+        },
+        "open-terminal-inside-running-container": {
+          "type": "header",
+          "text": "Open terminal inside running container",
+          "value": "open-terminal-inside-running-container",
+          "line": 61,
+          "column": 0,
+          "depth": 3
+        },
+        "copy-files-tofrom-volume": {
+          "type": "header",
+          "text": "Copy files to/from volume",
+          "value": "copy-files-tofrom-volume",
+          "line": 64,
+          "column": 0,
+          "depth": 3
+        },
+        "update-all-images": {
+          "type": "header",
+          "text": "Update all images",
+          "value": "update-all-images",
+          "line": 72,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "owfsvxtiup2xnmhsydlyfez": {
+      "id": "owfsvxtiup2xnmhsydlyfez",
+      "title": "Database",
+      "desc": "",
+      "updated": 1641252858018,
+      "created": 1641252083960,
+      "custom": {},
+      "fname": "computer.database",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "c963106096a7d6b33dcbb6fcf28e0b6f",
+      "links": [],
+      "anchors": {
+        "nosql": {
+          "type": "header",
+          "text": "NoSQL",
+          "value": "nosql",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "document-database": {
+          "type": "header",
+          "text": "Document Database",
+          "value": "document-database",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "key-value-store": {
+          "type": "header",
+          "text": "Key-Value Store",
+          "value": "key-value-store",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "wide-column-store": {
+          "type": "header",
+          "text": "Wide-Column Store",
+          "value": "wide-column-store",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "graph-stores": {
+          "type": "header",
+          "text": "Graph Stores",
+          "value": "graph-stores",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "wjrgixg2rt9xkzg0ldu3gl5": {
+      "id": "wjrgixg2rt9xkzg0ldu3gl5",
+      "title": "CI",
+      "desc": "",
+      "updated": 1655492082984,
+      "created": 1655492082984,
+      "custom": {},
+      "fname": "computer.ci",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "3d97c91c1af448f87513d8505a51475c",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "1f76dp53tzqozdchv4m5z2c",
+        "0gdbpdwcli0555gm2lzn58k"
+      ],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "0gdbpdwcli0555gm2lzn58k": {
+      "id": "0gdbpdwcli0555gm2lzn58k",
+      "title": "Semantic Release",
+      "desc": "",
+      "updated": 1655493263440,
+      "created": 1655246556718,
+      "custom": {},
+      "fname": "computer.ci.semantic-release",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "019429bd715c24a3b7c660ec403e8115",
+      "links": [],
+      "anchors": {
+        "gha": {
+          "type": "header",
+          "text": "GHA",
+          "value": "gha",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "releaserc": {
+          "type": "header",
+          "text": "releaserc",
+          "value": "releaserc",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "yml": {
+          "type": "header",
+          "text": "yml",
+          "value": "yml",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "controls-when-the-workflow-will-run": {
+          "type": "header",
+          "text": "Controls when the workflow will run",
+          "value": "controls-when-the-workflow-will-run",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "triggers-the-workflow-on-push-or-pull-request-events-but-only-for-the-main-branch": {
+          "type": "header",
+          "text": "Triggers the workflow on push or pull request events but only for the \"main\" branch",
+          "value": "triggers-the-workflow-on-push-or-pull-request-events-but-only-for-the-main-branch",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "allows-you-to-run-this-workflow-manually-from-the-actions-tab": {
+          "type": "header",
+          "text": "Allows you to run this workflow manually from the Actions tab",
+          "value": "allows-you-to-run-this-workflow-manually-from-the-actions-tab",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "a-workflow-run-is-made-up-of-one-or-more-jobs-that-can-run-sequentially-or-in-parallel": {
+          "type": "header",
+          "text": "A workflow run is made up of one or more jobs that can run sequentially or in parallel",
+          "value": "a-workflow-run-is-made-up-of-one-or-more-jobs-that-can-run-sequentially-or-in-parallel",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wjrgixg2rt9xkzg0ldu3gl5",
+      "data": {}
+    },
+    "1f76dp53tzqozdchv4m5z2c": {
+      "id": "1f76dp53tzqozdchv4m5z2c",
+      "title": "GitHub Actions",
+      "desc": "",
+      "updated": 1671480249560,
+      "created": 1655492082970,
+      "custom": {},
+      "fname": "computer.ci.github-actions",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "4084cf41ad1ffaa539e9ad695b1ff9c7",
+      "links": [],
+      "anchors": {
+        "artifacts": {
+          "type": "header",
+          "text": "Artifacts",
+          "value": "artifacts",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "upload": {
+          "type": "header",
+          "text": "Upload",
+          "value": "upload",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "download": {
+          "type": "header",
+          "text": "Download",
+          "value": "download",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wjrgixg2rt9xkzg0ldu3gl5",
+      "data": {}
+    },
+    "x1e9daf7h4e4nykz0u56hf2": {
+      "id": "x1e9daf7h4e4nykz0u56hf2",
+      "title": "API",
+      "desc": "",
+      "updated": 1653413230157,
+      "created": 1653363034561,
+      "custom": {},
+      "fname": "computer.api",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "332b485c5bf3669dbba99e2fb20490d8",
+      "links": [],
+      "anchors": {
+        "curl-request-receiving-json-in-linux-terminal": {
+          "type": "header",
+          "text": "CURL request receiving JSON in Linux terminal",
+          "value": "curl-request-receiving-json-in-linux-terminal",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "rpc-vs-rest-vs-graphql": {
+          "type": "header",
+          "text": "RPC vs REST vs GraphQL",
+          "value": "rpc-vs-rest-vs-graphql",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "67vcv6zhh0cxazsfqlaai29",
+      "data": {}
+    },
+    "5u88syeac813rvqauto8x7o": {
+      "id": "5u88syeac813rvqauto8x7o",
+      "title": "Blog",
+      "desc": "",
+      "updated": 1673030449675,
+      "created": 1671490663768,
+      "custom": {},
+      "fname": "blog",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "60e83d3037b5079da7d0afca798eeb28",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "blog",
+            "id": "5u88syeac813rvqauto8x7o",
+            "vaultName": "notes"
+          },
+          "value": "blog.airbnb",
+          "alias": "Airbnb",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 3,
+              "offset": 11
+            },
+            "end": {
+              "line": 2,
+              "column": 25,
+              "offset": 33
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "blog.airbnb"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "blog",
+            "id": "5u88syeac813rvqauto8x7o",
+            "vaultName": "notes"
+          },
+          "value": "blog.daas-inc",
+          "alias": "Daas Inc",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 3,
+              "offset": 36
+            },
+            "end": {
+              "line": 3,
+              "column": 29,
+              "offset": 62
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "blog.daas-inc"
+          }
+        }
+      ],
+      "anchors": {
+        "index": {
+          "type": "header",
+          "text": "Index",
+          "value": "index",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "wd2g90i9743puwg70rzdzfv",
+        "4zio7z0s9fy1d310wxhrbhx"
+      ],
+      "parent": "398cceh65hemaonxc6w22r7",
+      "data": {}
+    },
+    "4zio7z0s9fy1d310wxhrbhx": {
+      "id": "4zio7z0s9fy1d310wxhrbhx",
+      "title": "Daas Inc",
+      "desc": "",
+      "updated": 1673048157029,
+      "created": 1671490674887,
+      "custom": {},
+      "fname": "blog.daas-inc",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "a033397caa17dd6b32a317051ddb63a3",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "blog.daas-inc",
+            "id": "4zio7z0s9fy1d310wxhrbhx",
+            "vaultName": "notes"
+          },
+          "value": "blog.airbnb",
+          "alias": "AirBnB",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 234,
+              "offset": 414
+            },
+            "end": {
+              "line": 4,
+              "column": 258,
+              "offset": 438
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "blog.airbnb"
+          }
+        },
+        {
+          "from": {
+            "fname": "blog",
+            "id": "5u88syeac813rvqauto8x7o",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 3,
+              "offset": 36
+            },
+            "end": {
+              "line": 3,
+              "column": 29,
+              "offset": 62
+            },
+            "indent": []
+          },
+          "value": "blog.daas-inc"
+        },
+        {
+          "from": {
+            "fname": "blog.airbnb",
+            "id": "wd2g90i9743puwg70rzdzfv",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 208,
+              "offset": 1235
+            },
+            "end": {
+              "line": 9,
+              "column": 236,
+              "offset": 1263
+            },
+            "indent": []
+          },
+          "value": "blog.daas-inc"
+        }
+      ],
+      "anchors": {
+        "bootstrapped-rags-to-rags-pcb-assembly-business-venture": {
+          "type": "header",
+          "text": "Bootstrapped Rags to Rags PCB Assembly Business Venture",
+          "value": "bootstrapped-rags-to-rags-pcb-assembly-business-venture",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        },
+        "introduction": {
+          "type": "header",
+          "text": "Introduction",
+          "value": "introduction",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "the-dream-machine": {
+          "type": "header",
+          "text": "The Dream Machine",
+          "value": "the-dream-machine",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "mobile-factory": {
+          "type": "header",
+          "text": "Mobile Factory",
+          "value": "mobile-factory",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "customer-no-1": {
+          "type": "header",
+          "text": "Customer No. 1",
+          "value": "customer-no-1",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "owner-operator": {
+          "type": "header",
+          "text": "Owner-Operator",
+          "value": "owner-operator",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "scale-fail": {
+          "type": "header",
+          "text": "Scale Fail",
+          "value": "scale-fail",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "maybe-maybe-not": {
+          "type": "header",
+          "text": "Maybe, Maybe Not",
+          "value": "maybe-maybe-not",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "moving-forward": {
+          "type": "header",
+          "text": "Moving Forward",
+          "value": "moving-forward",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "debrief": {
+          "type": "header",
+          "text": "Debrief",
+          "value": "debrief",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "5u88syeac813rvqauto8x7o",
+      "data": {}
+    },
+    "wd2g90i9743puwg70rzdzfv": {
+      "id": "wd2g90i9743puwg70rzdzfv",
+      "title": "Airbnb",
+      "desc": "",
+      "updated": 1673048255423,
+      "created": 1671490724608,
+      "custom": {},
+      "fname": "blog.airbnb",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "b66eea4dbc6e484b6f6b4044c34b8897",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "blog.airbnb",
+            "id": "wd2g90i9743puwg70rzdzfv",
+            "vaultName": "notes"
+          },
+          "value": "blog.daas-inc",
+          "alias": "DAAS Inc",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 208,
+              "offset": 1235
+            },
+            "end": {
+              "line": 9,
+              "column": 236,
+              "offset": 1263
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "blog.daas-inc"
+          }
+        },
+        {
+          "from": {
+            "fname": "blog",
+            "id": "5u88syeac813rvqauto8x7o",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 3,
+              "offset": 11
+            },
+            "end": {
+              "line": 2,
+              "column": 25,
+              "offset": 33
+            },
+            "indent": []
+          },
+          "value": "blog.airbnb"
+        },
+        {
+          "from": {
+            "fname": "blog.daas-inc",
+            "id": "4zio7z0s9fy1d310wxhrbhx",
+            "vaultName": "notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 234,
+              "offset": 414
+            },
+            "end": {
+              "line": 4,
+              "column": 258,
+              "offset": 438
+            },
+            "indent": []
+          },
+          "value": "blog.airbnb"
+        }
+      ],
+      "anchors": {
+        "the-beginning": {
+          "type": "header",
+          "text": "The Beginning",
+          "value": "the-beginning",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        },
+        "how-it-went": {
+          "type": "header",
+          "text": "How it Went",
+          "value": "how-it-went",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "how-its-going": {
+          "type": "header",
+          "text": "How it's going",
+          "value": "how-its-going",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "why-its-exciting": {
+          "type": "header",
+          "text": "Why it's exciting",
+          "value": "why-its-exciting",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "5u88syeac813rvqauto8x7o",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "398cceh65hemaonxc6w22r7",
+      "title": "rodun",
+      "desc": "",
+      "updated": 1673033072132,
+      "created": 1668995545797,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "notes"
+      },
+      "contentHash": "194939704b23314011141116733dafdb",
+      "links": [],
+      "anchors": {
+        "links": {
+          "type": "header",
+          "text": "Links",
+          "value": "links",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "github": {
+          "type": "header",
+          "text": "GitHub",
+          "value": "github",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "linkedin": {
+          "type": "header",
+          "text": "LinkedIn",
+          "value": "linkedin",
+          "line": 9,
+          "column": 0,
+          "depth": 3
+        },
+        "frappe-forum": {
+          "type": "header",
+          "text": "Frappe Forum",
+          "value": "frappe-forum",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "hackerrank": {
+          "type": "header",
+          "text": "HackerRank",
+          "value": "hackerrank",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "youtube": {
+          "type": "header",
+          "text": "YouTube",
+          "value": "youtube",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "ifoa0v25wh8cu1hxwdr9h42",
+        "5u88syeac813rvqauto8x7o",
+        "nc02voic3g7pn9o0vu5lyki",
+        "67vcv6zhh0cxazsfqlaai29",
+        "44oijwqa5kph6kobar7jckg",
+        "dcbhrrtovhg5rzaathh1vzo",
+        "15dblq3xeghfzhf4xy84qol",
+        "iyj5r87cpjx65khycaiepqo",
+        "zn57yzyn4u8t0upnvhlhh86",
+        "au5edemlol3d2awpbv9v95j",
+        "hjz2keujzwyj7ts555cxr3d",
+        "wn2fr0o5xhabmh5vfkevsvj",
+        "58xds0229zowl3885oqf38y"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "## Links\n### [GitHub](https://github.com/Robproject)\n### [LinkedIn](https://www.linkedin.com/in/rodun/)\n### [Frappe Forum](https://discuss.frappe.io/u/roberp/summary)\n### [HackerRank](https://www.hackerrank.com/rodun?hr_r=1)\n### [YouTube](https://www.youtube.com/channel/UCgzGBLm9bYFEFWi7_EzRB_g)"
+    }
+  ],
+  "noteIndex": {
+    "id": "398cceh65hemaonxc6w22r7",
+    "title": "rodun",
+    "desc": "",
+    "updated": 1673033072132,
+    "created": 1668995545797,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "notes"
+    },
+    "contentHash": "194939704b23314011141116733dafdb",
+    "links": [],
+    "anchors": {
+      "links": {
+        "type": "header",
+        "text": "Links",
+        "value": "links",
+        "line": 7,
+        "column": 0,
+        "depth": 2
+      },
+      "github": {
+        "type": "header",
+        "text": "GitHub",
+        "value": "github",
+        "line": 8,
+        "column": 0,
+        "depth": 3
+      },
+      "linkedin": {
+        "type": "header",
+        "text": "LinkedIn",
+        "value": "linkedin",
+        "line": 9,
+        "column": 0,
+        "depth": 3
+      },
+      "frappe-forum": {
+        "type": "header",
+        "text": "Frappe Forum",
+        "value": "frappe-forum",
+        "line": 10,
+        "column": 0,
+        "depth": 3
+      },
+      "hackerrank": {
+        "type": "header",
+        "text": "HackerRank",
+        "value": "hackerrank",
+        "line": 11,
+        "column": 0,
+        "depth": 3
+      },
+      "youtube": {
+        "type": "header",
+        "text": "YouTube",
+        "value": "youtube",
+        "line": 12,
+        "column": 0,
+        "depth": 3
+      }
+    },
+    "children": [
+      "ifoa0v25wh8cu1hxwdr9h42",
+      "5u88syeac813rvqauto8x7o",
+      "nc02voic3g7pn9o0vu5lyki",
+      "67vcv6zhh0cxazsfqlaai29",
+      "44oijwqa5kph6kobar7jckg",
+      "dcbhrrtovhg5rzaathh1vzo",
+      "15dblq3xeghfzhf4xy84qol",
+      "iyj5r87cpjx65khycaiepqo",
+      "zn57yzyn4u8t0upnvhlhh86",
+      "au5edemlol3d2awpbv9v95j",
+      "hjz2keujzwyj7ts555cxr3d",
+      "wn2fr0o5xhabmh5vfkevsvj",
+      "58xds0229zowl3885oqf38y"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "## Links\n### [GitHub](https://github.com/Robproject)\n### [LinkedIn](https://www.linkedin.com/in/rodun/)\n### [Frappe Forum](https://discuss.frappe.io/u/roberp/summary)\n### [HackerRank](https://www.hackerrank.com/rodun?hr_r=1)\n### [YouTube](https://www.youtube.com/channel/UCgzGBLm9bYFEFWi7_EzRB_g)"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "notes"
+    }
+  ]
+}

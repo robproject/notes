@@ -1,0 +1,37 @@
+<h1 id="bash">Bash<a aria-hidden="true" class="anchor-heading icon-link" href="#bash"></a></h1>
+<h2 id="string-manipulation">String Manipulation<a aria-hidden="true" class="anchor-heading icon-link" href="#string-manipulation"></a></h2>
+<pre><code>robproject@hppav:~/playlist$ echo $stro
+asdlm
+robproject@hppav:~/playlist$ str=$(echo $stro | rev)
+robproject@hppav:~/playlist$ echo $str
+mldsa
+robproject@hppav:~/playlist$ echo $var
+asdf-12345679012.mp3
+robproject@hppav:~/playlist$ str=$(echo $var | rev)
+robproject@hppav:~/playlist$ $str
+3pm.21097654321-fdsa: command not found
+robproject@hppav:~/playlist$ strc=${str:0:4}${str:15}
+robproject@hppav:~/playlist$ echo $strc
+3pm.-fdsa
+robproject@hppav:~/playlist$ strc=${str:0:4}${str:16}
+robproject@hppav:~/playlist$ echo $strc
+3pm.fdsa
+robproject@hppav:~/playlist$ strm=$(echo $strc | rev)
+robproject@hppav:~/playlist$ echo $strm
+asdf.mp3
+</code></pre>
+<h3 id="rename-folder-of-files">Rename folder of files<a aria-hidden="true" class="anchor-heading icon-link" href="#rename-folder-of-files"></a></h3>
+<pre><code>(files='path/to/files')
+for f in $files; do
+frev=$(echo $f | rev)
+fcut=${frev:0:4}${frev:16}
+fback=$(echo $fcut | rev)
+mv "$f" "$fback"
+done
+</code></pre>
+<h2 id="functions">Functions<a aria-hidden="true" class="anchor-heading icon-link" href="#functions"></a></h2>
+<h3 id="for-loop">For loop<a aria-hidden="true" class="anchor-heading icon-link" href="#for-loop"></a></h3>
+<pre><code>for f in files; do
+	echo $f
+done
+</code></pre>

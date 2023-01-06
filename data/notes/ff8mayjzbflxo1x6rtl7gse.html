@@ -1,0 +1,259 @@
+<h1 id="vim">Vim<a aria-hidden="true" class="anchor-heading icon-link" href="#vim"></a></h1>
+<h3 id="vim-cheat-sheet">Vim Cheat Sheet<a aria-hidden="true" class="anchor-heading icon-link" href="#vim-cheat-sheet"></a></h3>
+<p>Copied from <a href="https://vim.rtorr.com/">https://vim.rtorr.com/</a></p>
+<h3 id="global">Global<a aria-hidden="true" class="anchor-heading icon-link" href="#global"></a></h3>
+<p>●	:h[elp] keyword - open help for keyword </p>
+<p>●	:sav[eas] file - save file as </p>
+<p>●	:clo[se] - close current pane </p>
+<p>●	:ter[minal] - open a terminal window </p>
+<p>●	K - open man page for word under the cursor </p>
+<h2 id="run-vimtutor-in-a-terminal-to-learn-the-first-vim-commands">Run vimtutor in a terminal to learn the first Vim commands.<a aria-hidden="true" class="anchor-heading icon-link" href="#run-vimtutor-in-a-terminal-to-learn-the-first-vim-commands"></a></h2>
+<h3 id="cursor-movement">Cursor movement<a aria-hidden="true" class="anchor-heading icon-link" href="#cursor-movement"></a></h3>
+<p>●	h - move cursor left   </p>
+<p>●	j - move cursor down </p>
+<p>●	k - move cursor up </p>
+<p>●	l - move cursor right </p>
+<p>●	H - move to top of screen </p>
+<p>●	M - move to middle of screen </p>
+<p>●	L - move to bottom of screen </p>
+<p>●	w - jump forwards to the start of a word </p>
+<p>●	W - jump forwards to the start of a word (words can contain punctuation) </p>
+<p>●	e - jump forwards to the end of a word </p>
+<p>●	E - jump forwards to the end of a word (words can contain punctuation) </p>
+<p>●	b - jump backwards to the start of a word </p>
+<p>●	B - jump backwards to the start of a word (words can contain punctuation) </p>
+<p>●	ge - jump backwards to the end of a word </p>
+<p>●	gE - jump backwards to the end of a word (words can contain punctuation) </p>
+<p>●	% - move to matching character (default supported pairs: '()', '{}', '[]' - use :h matchpairs in vim for more info) </p>
+<p>●	0 - jump to the start of the line </p>
+<p>●	^ - jump to the first non-blank character of the line </p>
+<p>●	$ - jump to the end of the line </p>
+<p>●	g_ - jump to the last non-blank character of the line </p>
+<p>●	gg - go to the first line of the document </p>
+<p>●	G - go to the last line of the document </p>
+<p>●	5gg or 5G - go to line 5 </p>
+<p>●	gd - move to local declaration </p>
+<p>●	gD - move to global declaration </p>
+<p>●	fx - jump to next occurrence of character x </p>
+<p>●	tx - jump to before next occurrence of character x </p>
+<p>●	Fx - jump to previous occurence of character x </p>
+<p>●	Tx - jump to after previous occurence of character x </p>
+<p>●	; - repeat previous f, t, F or T movement </p>
+<p>●	, - repeat previous f, t, F or T movement, backwards </p>
+<p>●	} - jump to next paragraph (or function/block, when editing code) </p>
+<p>●	{ - jump to previous paragraph (or function/block, when editing code) </p>
+<p>●	zz - center cursor on screen </p>
+<p>●	Ctrl + e - move screen down one line (without moving cursor) </p>
+<p>●	Ctrl + y - move screen up one line (without moving cursor) </p>
+<p>●	Ctrl + b - move back one full screen </p>
+<p>●	Ctrl + f - move forward one full screen </p>
+<p>●	Ctrl + d - move forward 1/2 a screen </p>
+<p>●	Ctrl + u - move back 1/2 a screen </p>
+<h3 id="prefix-a-cursor-movement-command-with-a-number-to-repeat-it-for-example-4j-moves-down-4-lines">Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.<a aria-hidden="true" class="anchor-heading icon-link" href="#prefix-a-cursor-movement-command-with-a-number-to-repeat-it-for-example-4j-moves-down-4-lines"></a></h3>
+<h3 id="insert-mode---insertingappending-text">Insert mode - inserting/appending text<a aria-hidden="true" class="anchor-heading icon-link" href="#insert-mode---insertingappending-text"></a></h3>
+<p>●	i - insert before the cursor </p>
+<p>●	I - insert at the beginning of the line </p>
+<p>●	a - insert (append) after the cursor </p>
+<p>●	A - insert (append) at the end of the line </p>
+<p>●	o - append (open) a new line below the current line </p>
+<p>●	O - append (open) a new line above the current line </p>
+<p>●	ea - insert (append) at the end of the word </p>
+<p>●	Ctrl + h - delete the character before the cursor during insert mode </p>
+<p>●	Ctrl + w - delete word before the cursor during insert mode </p>
+<p>●	Ctrl + j - begin new line during insert mode </p>
+<p>●	Ctrl + t - indent (move right) line one shiftwidth during insert mode </p>
+<p>●	Ctrl + d - de-indent (move left) line one shiftwidth during insert mode </p>
+<p>●	Ctrl + n - insert (auto-complete) next match before the cursor during insert mode </p>
+<p>●	Ctrl + p - insert (auto-complete) previous match before the cursor during insert mode </p>
+<p>●	Ctrl + rx - insert the contents of register x </p>
+<p>●	Ctrl + ox - Temporarily enter normal mode to issue one normal-mode command x. </p>
+<p>●	Esc - exit insert mode </p>
+<h3 id="editing">Editing<a aria-hidden="true" class="anchor-heading icon-link" href="#editing"></a></h3>
+<p>●	r - replace a single character. </p>
+<p>●	R - replace more than one character, until ESC is pressed. </p>
+<p>●	J - join line below to the current one with one space in between </p>
+<p>●	gJ - join line below to the current one without space in between </p>
+<p>●	gwip - reflow paragraph </p>
+<p>●	g~ - switch case up to motion </p>
+<p>●	gu - change to lowercase up to motion </p>
+<p>●	gU - change to uppercase up to motion </p>
+<p>●	cc - change (replace) entire line </p>
+<p>●	C - change (replace) to the end of the line </p>
+<p>●	c$ - change (replace) to the end of the line </p>
+<p>●	ciw - change (replace) entire word </p>
+<p>●	cw or ce - change (replace) to the end of the word </p>
+<p>●	s - delete character and substitute text </p>
+<p>●	S - delete line and substitute text (same as cc) </p>
+<p>●	xp - transpose two letters (delete and paste) </p>
+<p>●	u - undo </p>
+<p>●	U - restore (undo) last changed line </p>
+<p>●	Ctrl + r - redo </p>
+<p>●	. - repeat last command </p>
+<h3 id="marking-text-visual-mode">Marking text (visual mode)<a aria-hidden="true" class="anchor-heading icon-link" href="#marking-text-visual-mode"></a></h3>
+<p>●	v - start visual mode, mark lines, then do a command (like y-yank) </p>
+<p>●	V - start linewise visual mode </p>
+<p>●	o - move to other end of marked area </p>
+<p>●	Ctrl + v - start visual block mode </p>
+<p>●	O - move to other corner of block </p>
+<p>●	aw - mark a word </p>
+<p>●	ab - a block with () </p>
+<p>●	aB - a block with {} </p>
+<p>●	at - a block with &#x3C;> tags </p>
+<p>●	ib - inner block with () </p>
+<p>●	iB - inner block with {} </p>
+<p>●	it - inner block with &#x3C;> tags </p>
+<p>●	Esc - exit visual mode </p>
+<h3 id="instead-of-b-or-b-one-can-also-use--or--respectively">Instead of b or B one can also use ( or { respectively.<a aria-hidden="true" class="anchor-heading icon-link" href="#instead-of-b-or-b-one-can-also-use--or--respectively"></a></h3>
+<h3 id="visual-commands">Visual commands<a aria-hidden="true" class="anchor-heading icon-link" href="#visual-commands"></a></h3>
+<p>●	> - shift text right </p>
+<p>●	&#x3C; - shift text left </p>
+<p>●	y - yank (copy) marked text </p>
+<p>●	d - delete marked text </p>
+<p>●	~ - switch case </p>
+<p>●	u - change marked text to lowercase </p>
+<p>●	U - change marked text to uppercase </p>
+<p>Registers </p>
+<p>●	:reg[isters] - show registers content </p>
+<p>●	"xy - yank into register x </p>
+<p>●	"xp - paste contents of register x </p>
+<p>●	"+y - yank into the system clipboard register </p>
+<p>●	"+p - paste from the system clipboard register </p>
+<h3 id="registers-are-being-stored-in-viminfo-and-will-be-loaded-again-on-next-restart-of-vim">Registers are being stored in ~/.viminfo, and will be loaded again on next restart of vim.<a aria-hidden="true" class="anchor-heading icon-link" href="#registers-are-being-stored-in-viminfo-and-will-be-loaded-again-on-next-restart-of-vim"></a></h3>
+<h3 id="special-registers">Special registers:<a aria-hidden="true" class="anchor-heading icon-link" href="#special-registers"></a></h3>
+<p> 0 - last yank </p>
+<p> " - unnamed register, last delete or yank </p>
+<p> % - current file name </p>
+<p> # - alternate file name </p>
+<p> * - clipboard contents (X11 primary) </p>
+<p> + - clipboard contents (X11 clipboard) </p>
+<p> / - last search pattern </p>
+<p> : - last command-line </p>
+<p> . - last inserted text </p>
+<p> - - last small (less than a line) delete </p>
+<p> = - expression register </p>
+<p> _ - black hole register </p>
+<h3 id="marks-and-positions">Marks and positions<a aria-hidden="true" class="anchor-heading icon-link" href="#marks-and-positions"></a></h3>
+<p>●	:marks - list of marks </p>
+<p>●	ma - set current position for mark A </p>
+<p>●	`a - jump to position of mark A </p>
+<p>●	y`a - yank text to position of mark A </p>
+<p>●	`0 - go to the position where Vim was previously exited </p>
+<p>●	`" - go to the position when last editing this file </p>
+<p>●	`. - go to the position of the last change in this file </p>
+<p>●	`` - go to the position before the last jump </p>
+<p>●	:ju[mps] - list of jumps </p>
+<p>●	Ctrl + i - go to newer position in jump list </p>
+<p>●	Ctrl + o - go to older position in jump list </p>
+<p>●	:changes - list of changes </p>
+<p>●	g, - go to newer position in change list </p>
+<p>●	g; - go to older position in change list </p>
+<p>●	Ctrl + ] - jump to the tag under cursor </p>
+<p>●	:set number = add number lines</p>
+<h3 id="to-jump-to-a-mark-you-can-either-use-a-backtick--or-an-apostrophe--using-an-apostrophe-jumps-to-the-beginning-first-non-blank-of-the-line-holding-the-mark">To jump to a mark you can either use a backtick (`) or an apostrophe ('). Using an apostrophe jumps to the beginning (first non-blank) of the line holding the mark.<a aria-hidden="true" class="anchor-heading icon-link" href="#to-jump-to-a-mark-you-can-either-use-a-backtick--or-an-apostrophe--using-an-apostrophe-jumps-to-the-beginning-first-non-blank-of-the-line-holding-the-mark"></a></h3>
+<h3 id="macros">Macros<a aria-hidden="true" class="anchor-heading icon-link" href="#macros"></a></h3>
+<p>●	qa - record macro a </p>
+<p>●	q - stop recording macro </p>
+<p>●	<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@a (Private)</a> - run macro a </p>
+<p>●	@@ - rerun last run macro </p>
+<h3 id="cut-and-paste">Cut and paste<a aria-hidden="true" class="anchor-heading icon-link" href="#cut-and-paste"></a></h3>
+<p>●	yy - yank (copy) a line </p>
+<p>●	2yy - yank (copy) 2 lines </p>
+<p>●	yw - yank (copy) the characters of the word from the cursor position to the start of the next word </p>
+<p>●	yiw - yank (copy) word under the cursor </p>
+<p>●	yaw - yank (copy) word under the cursor and the space after or before it </p>
+<p>●	y$ - yank (copy) to end of line </p>
+<p>●	p - put (paste) the clipboard after cursor </p>
+<p>●	P - put (paste) before cursor </p>
+<p>●	dd - delete (cut) a line </p>
+<p>●	2dd - delete (cut) 2 lines </p>
+<p>●	dw - delete (cut) the characters of the word from the cursor position to the start of the next word </p>
+<p>●	diw - delete (cut) word under the cursor </p>
+<p>●	daw - delete (cut) word under the cursor and the space after or before it </p>
+<p>●	D - delete (cut) to the end of the line </p>
+<p>●	d$ - delete (cut) to the end of the line </p>
+<p>●	x - delete (cut) character </p>
+<h3 id="indent-text">Indent text<a aria-hidden="true" class="anchor-heading icon-link" href="#indent-text"></a></h3>
+<p>●	>> - indent (move right) line one shiftwidth </p>
+<p>●	&#x3C;&#x3C; - de-indent (move left) line one shiftwidth </p>
+<p>●	>% - indent a block with () or {} (cursor on brace) </p>
+<p>●	>ib - indent inner block with () </p>
+<p>●	>at - indent a block with &#x3C;> tags </p>
+<p>●	3== - re-indent 3 lines </p>
+<p>●	=% - re-indent a block with () or {} (cursor on brace) </p>
+<p>●	=iB - re-indent inner block with {} </p>
+<p>●	gg=G - re-indent entire buffer </p>
+<p>●	]p - paste and adjust indent to current line </p>
+<h3 id="exiting">Exiting<a aria-hidden="true" class="anchor-heading icon-link" href="#exiting"></a></h3>
+<p>●	:w - write (save) the file, but don't exit </p>
+<p>●	:w !sudo tee % - write out the current file using sudo </p>
+<p>●	:wq or :x or ZZ - write (save) and quit </p>
+<p>●	:q - quit (fails if there are unsaved changes) </p>
+<p>●	:q! or ZQ - quit and throw away unsaved changes </p>
+<p>●	:wqa - write (save) and quit on all tabs </p>
+<h3 id="search-and-replace">Search and replace<a aria-hidden="true" class="anchor-heading icon-link" href="#search-and-replace"></a></h3>
+<p>●	/pattern - search for pattern </p>
+<p>●	?pattern - search backward for pattern </p>
+<p>●	\vpattern - 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed) </p>
+<p>●	n - repeat search in same direction </p>
+<p>●	N - repeat search in opposite direction </p>
+<p>●	:%s/old/new/g - replace all old with new throughout file </p>
+<p>●	:%s/old/new/gc - replace all old with new throughout file with confirmations </p>
+<p>●	:noh[lsearch] - remove highlighting of search matches </p>
+<h3 id="search-in-multiple-files">Search in multiple files<a aria-hidden="true" class="anchor-heading icon-link" href="#search-in-multiple-files"></a></h3>
+<p>●	:vim[grep] /pattern/ {<code>{file}</code>} - search for pattern in multiple files </p>
+<p>e.g. :vim[grep] /foo/ *<em>/</em> </p>
+<p>●	:cn[ext] - jump to the next match </p>
+<p>●	:cp[revious] - jump to the previous match </p>
+<p>●	:cope[n] - open a window containing the list of matches </p>
+<p>●	:ccl[ose] - close the quickfix window </p>
+<h3 id="tabs">Tabs<a aria-hidden="true" class="anchor-heading icon-link" href="#tabs"></a></h3>
+<p>●	:tabnew or :tabnew {page.words.file} - open a file in a new tab </p>
+<p>●	Ctrl + wT - move the current split window into its own tab </p>
+<p>●	gt or :tabn[ext] - move to the next tab </p>
+<p>●	gT or :tabp[revious] - move to the previous tab </p>
+<p>●	#  gt - move to tab number # </p>
+<p>●	:tabm[ove] # - move current tab to the <a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">#th (Private)</a> position (indexed from 0) </p>
+<p>●	:tabc[lose] - close the current tab and all its windows </p>
+<p>●	:tabo[nly] - close all tabs except for the current one </p>
+<p>●	:tabdo command - run the command on all tabs (e.g. :tabdo q - closes all opened tabs) </p>
+<h3 id="working-with-multiple-files">Working with multiple files<a aria-hidden="true" class="anchor-heading icon-link" href="#working-with-multiple-files"></a></h3>
+<p>●	:e[dit] file - edit a file in a new buffer </p>
+<p>●	:bn[ext] - go to the next buffer </p>
+<p>●	:bp[revious] - go to the previous buffer </p>
+<p>●	:bd[elete] - delete a buffer (close a file) </p>
+<p>●	:b[uffer]# - go to a buffer by index # </p>
+<p>●	:b[uffer] file - go to a buffer by file </p>
+<p>●	:ls or :buffers - list all open buffers </p>
+<p>●	:sp[lit] file - open a file in a new buffer and split window </p>
+<p>●	:vs[plit] file - open a file in a new buffer and vertically split window </p>
+<p>●	:vert[ical] ba[ll] - edit all buffers as vertical windows </p>
+<p>●	:tab ba[ll] - edit all buffers as tabs </p>
+<p>●	Ctrl + ws - split window </p>
+<p>●	Ctrl + wv - split window vertically </p>
+<p>●	Ctrl + ww - switch windows </p>
+<p>●	Ctrl + wq - quit a window </p>
+<p>●	Ctrl + wx - exchange current window with next one </p>
+<p>●	Ctrl + w= - make all windows equal height &#x26; width </p>
+<p>●	Ctrl + wh - move cursor to the left window (vertical split) </p>
+<p>●	Ctrl + wl - move cursor to the right window (vertical split) </p>
+<p>●	Ctrl + wj - move cursor to the window below (horizontal split) </p>
+<p>●	Ctrl + wk - move cursor to the window above (horizontal split) </p>
+<h3 id="diff">Diff<a aria-hidden="true" class="anchor-heading icon-link" href="#diff"></a></h3>
+<p>●	zf - manually define a fold up to motion </p>
+<p>●	zd - delete fold under the cursor </p>
+<p>●	za - toggle fold under the cursor </p>
+<p>●	zo - open fold under the cursor </p>
+<p>●	zc - close fold under the cursor </p>
+<p>●	zr - reduce (open) all folds by one level </p>
+<p>●	zm - fold more (close) all folds by one level </p>
+<p>●	zi - toggle folding functionality </p>
+<p>●	]c - jump to start of next change </p>
+<p>●	[c - jump to start of previous change </p>
+<p>●	do or :diffg[et] - obtain (get) difference (from other buffer) </p>
+<p>●	dp or :diffpu[t] - put difference (to other buffer) </p>
+<p>●	:diffthis - make current window part of diff </p>
+<p>●	:dif[fupdate] - update differences </p>
+<p>●	:diffo[ff] - switch off diff mode for current window </p>
+<h3 id="the-commands-for-folding-eg-za-operate-on-one-level-to-operate-on-all-levels-use-uppercase-letters-eg-za">The commands for folding (e.g. za) operate on one level. To operate on all levels, use uppercase letters (e.g. zA).<a aria-hidden="true" class="anchor-heading icon-link" href="#the-commands-for-folding-eg-za-operate-on-one-level-to-operate-on-all-levels-use-uppercase-letters-eg-za"></a></h3>
+<h3 id="to-view-the-differences-of-files-one-can-directly-start-vim-in-diff-mode-by-running-vimdiff-in-a-terminal-one-can-even-set-this-as-git-difftool">To view the differences of files, one can directly start Vim in diff mode by running vimdiff in a terminal. One can even set this as git difftool.<a aria-hidden="true" class="anchor-heading icon-link" href="#to-view-the-differences-of-files-one-can-directly-start-vim-in-diff-mode-by-running-vimdiff-in-a-terminal-one-can-even-set-this-as-git-difftool"></a></h3>
+<p><img src="/assets/images/2021-12-01-17-43-26.png"></p>

@@ -1,0 +1,27 @@
+<h1 id="mermaid">Mermaid<a aria-hidden="true" class="anchor-heading icon-link" href="#mermaid"></a></h1>
+<h2 id="about"><a href="https://mermaid-js.github.io/mermaid/#/">About</a><a aria-hidden="true" class="anchor-heading icon-link" href="#about"></a></h2>
+<h3 id="flowcharts"><a href="https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax">Flowcharts</a><a aria-hidden="true" class="anchor-heading icon-link" href="#flowcharts"></a></h3>
+<pre><code>flowchart LR
+    Start --> Stop
+    A-- This is the text! ---B
+</code></pre>
+<div class="mermaid">
+  flowchart LR
+    Start --> Stop
+    A-- This is the text! ---B
+</div>
+<pre><code>flowchart TD
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
+</code></pre>
+<div class="mermaid">
+  flowchart TD
+    A[Start] --> B{Is it?}
+    B -->|Yes| C[OK]
+    C --> D[Rethink]
+    D --> B
+    B ---->|No| E[End]
+</div>

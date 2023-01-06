@@ -1,0 +1,72 @@
+<h1 id="linux">Linux<a aria-hidden="true" class="anchor-heading icon-link" href="#linux"></a></h1>
+<h3 id="nix-permissions">*NIX Permissions<a aria-hidden="true" class="anchor-heading icon-link" href="#nix-permissions"></a></h3>
+<div class="table-responsive">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>sym</th><th>code</th><th>desc</th></tr></thead><tbody><tr><td>---</td><td>0000</td><td>no permissions</td></tr><tr><td>-X-X-X</td><td>0111</td><td>execute</td></tr><tr><td>-w-w-w-</td><td>0222</td><td>write</td></tr><tr><td>-wx-wx-wx</td><td>0333</td><td>write &#x26; execute</td></tr><tr><td>-r-r-r-</td><td>0444</td><td>read</td></tr><tr><td>-r-xr-xr-x</td><td>0555</td><td>read &#x26; execute</td></tr><tr><td>-rw-rw-rw-</td><td>0666</td><td>read &#x26; write</td></tr><tr><td>-rwxrwxrwx</td><td>0777</td><td>read, write, &#x26; execute</td></tr></tbody></table></div>
+<p><a href="https://en.wikipedia.org/wiki/Linux_distribution">Linux Distributions Wikipedia</a></p>
+<h3 id="extract-directory-of-targz-files">Extract Directory of tar.gz files<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-directory-of-targz-files"></a></h3>
+<p>gunzip -r directory/pathtoallfiles/*</p>
+<h3 id="extract-directory-of-tar-files">Extract Directory of .tar files<a aria-hidden="true" class="anchor-heading icon-link" href="#extract-directory-of-tar-files"></a></h3>
+<p>for f in filename*wildcard.tar; do
+tar -xf "$f"
+done</p>
+<h3 id="list-and-delete-first-5-files">List and delete first 5 files<a aria-hidden="true" class="anchor-heading icon-link" href="#list-and-delete-first-5-files"></a></h3>
+<p>ls | head -n 5 | rm --</p>
+<h3 id="apt-vs-apt-get">apt vs apt-get<a aria-hidden="true" class="anchor-heading icon-link" href="#apt-vs-apt-get"></a></h3>
+<p>"apt-get is considered lower level and backend, while apt is designed for humans"
+apt and APT are not the same</p>
+<p>apt hosts common packages from apt-get and apt-cache. Designed to fix dependecy issues that arise with apt apt-cache and apt-get. </p>
+<p>apt-get installs, updates and removes while apt-cache searches for new packages. apt-get is low-level and configurable.</p>
+<p>apt-get + apt-cache + dpkg -l ==> apt</p>
+<h3 id="apt">APT<a aria-hidden="true" class="anchor-heading icon-link" href="#apt"></a></h3>
+<p>Advanced Package Tool - collection of tools for managing Debian's packaging system</p>
+<p>uses libraries libapt-pkg and libapt-inst</p>
+<p>CLI tools apt, apt-get, apt-cache, apt-config, and GUI tool aptitude work with Advanced Package Tool to perform their operational duties of installing, upgrading, and deleting. </p>

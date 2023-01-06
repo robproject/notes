@@ -1,0 +1,28 @@
+<h1 id="cv2">Cv2<a aria-hidden="true" class="anchor-heading icon-link" href="#cv2"></a></h1>
+<p><a href="https://www.youtube.com/watch?v=WQeoO7MI0Bs">until chapter 3</a></p>
+<h3 id="get-image">Get image<a aria-hidden="true" class="anchor-heading icon-link" href="#get-image"></a></h3>
+<p>img = cv2.imread("dir/img.png")
+for grayscale, pass '0'
+cv2.imread("dir/img.png", 0)</p>
+<h3 id="image-attributes">image attributes<a aria-hidden="true" class="anchor-heading icon-link" href="#image-attributes"></a></h3>
+<p>img.shape = (int height, int width, int color-channels)</p>
+<h3 id="image-resize">image resize<a aria-hidden="true" class="anchor-heading icon-link" href="#image-resize"></a></h3>
+<p>cv2.resize(img,(int width, int height))
+Scale:
+cv2.resize(img, None, fx=2, fy=2)</p>
+<h3 id="show-image">show image<a aria-hidden="true" class="anchor-heading icon-link" href="#show-image"></a></h3>
+<p>cv2.imshow("title",img)
+cv2.waitKey(0)</p>
+<h3 id="crop-image">crop image<a aria-hidden="true" class="anchor-heading icon-link" href="#crop-image"></a></h3>
+<p>img[int height start:int height stop, int width start:int width stop]</p>
+<h3 id="warp-perspective">warp perspective<a aria-hidden="true" class="anchor-heading icon-link" href="#warp-perspective"></a></h3>
+<p>paint gives pixel values</p>
+<p>pts = np.float32([x1,y1],[x2,y2],[x3,y3],[x4,y4])
+pts_defenition = np.float32([[0,0],[width,0],[0,height],[width,height]])
+matrix = cv2.getPerspectiveTransform(pts,pts_defenition)
+imgOutput = cv2.warpPerspective(img, matrix, (width,height))</p>
+<h3 id="rotate">rotate<a aria-hidden="true" class="anchor-heading icon-link" href="#rotate"></a></h3>
+<p>cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
+ROTATE_180</p>
+<h3 id="threshold">threshold<a aria-hidden="true" class="anchor-heading icon-link" href="#threshold"></a></h3>
+<p>cv2.threshold(image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]</p>

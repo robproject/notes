@@ -1,0 +1,478 @@
+<h1 id="erpnext">Erpnext<a aria-hidden="true" class="anchor-heading icon-link" href="#erpnext"></a></h1>
+<h1 id="doctype-functions">Doctype Functions<a aria-hidden="true" class="anchor-heading icon-link" href="#doctype-functions"></a></h1>
+<h2 id="prices">Prices<a aria-hidden="true" class="anchor-heading icon-link" href="#prices"></a></h2>
+<h3 id="price-list">Price List<a aria-hidden="true" class="anchor-heading icon-link" href="#price-list"></a></h3>
+<p>MultiSelect Buying, Selling, and price UOM dependent bool<br>
+Applicable by country  </p>
+<h3 id="item-price-list">Item Price List<a aria-hidden="true" class="anchor-heading icon-link" href="#item-price-list"></a></h3>
+<p>Select Item code, UOM, packing unit  </p>
+<ul>
+<li><strong>Price List</strong><br>
+Select Price List, supplier, and buying or selling (also batch no.)
+Currency and Rate
+Valid times</li>
+</ul>
+<h3 id="pricing-rule">Pricing Rule<a aria-hidden="true" class="anchor-heading icon-link" href="#pricing-rule"></a></h3>
+<p> Applied to Item Code, Item Group, Brand, or Transaction. Able to be mixed<br>
+Discount via price or product<br>
+Applicable to certain warehouse<br>
+Cumulative and coupon booleans  </p>
+<ul>
+<li>
+<p><strong>Party Information</strong><br>
+Multiselect buying, selling<br>
+Applicable for relation (customer, supplier, etc.)  </p>
+<p> <strong>Quantity and Amount</strong><br>
+Determined via min and max qtys  </p>
+<p> <strong>Period Settings</strong><br>
+Valid times  </p>
+<p> <strong>Price Discount Schemes</strong><br>
+Set margin<br>
+Discount method - amount, rate, or percentage - selected for one price list</p>
+<p> <strong>Advanced Settings</strong><br>
+Threshold (quantity), Priority, Condition via Python<br>
+For multiple pricing rules that are applicable, priority gets set</p>
+</li>
+</ul>
+<hr>
+<h2 id="selling">Selling<a aria-hidden="true" class="anchor-heading icon-link" href="#selling"></a></h2>
+<div class="mermaid">
+  flowchart TD
+Lead --> Opportunity
+Opportunity --> Quotation
+Quotation --> SalesOrder
+SalesOrder -->  DeliveryNote &#x26; SalesInvoice
+SalesOrder --advance--> PaymentEntry
+DeliveryNote &#x3C;--> SalesInvoice
+SalesInvoice --> PaymentEntry
+Customer --> Opportunity &#x26; Quotation
+SupplierQuotation --> Quotation
+</div>
+<h3 id="lead">Lead<a aria-hidden="true" class="anchor-heading icon-link" href="#lead"></a></h3>
+<p>Contact info<br>
+Lead Source, campaign<br>
+Lead owner, status     </p>
+<ul>
+<li>
+<p><strong>Follow Up</strong><br>
+Person, date, expiry  </p>
+<p><strong>Address &#x26; Contact</strong><br>
+Address info</p>
+</li>
+</ul>
+<h3 id="opportunity">Opportunity<a aria-hidden="true" class="anchor-heading icon-link" href="#opportunity"></a></h3>
+<p>Select Opp. From Cust or Lead<br>
+Select Source<br>
+Select Type; sales, maintenance etc.<br>
+Converted by salesperson<br>
+Select Sales State<br>
+Exp. Close Date  </p>
+<ul>
+<li>
+<p><strong>Follow Up</strong>
+Next contact by salesperson
+Contact date, to discuss</p>
+<p><strong>Sales</strong>
+Opportunity amnt, probability<br>
+Items bool - with table  </p>
+<p><strong>More Inforamtion</strong>
+Company</p>
+</li>
+</ul>
+<h3 id="sales-order">Sales Order<a aria-hidden="true" class="anchor-heading icon-link" href="#sales-order"></a></h3>
+<p>Customer
+Select Order Type; sails, maint., etc<br>
+Date and Delivery Date<br>
+Customer PO  </p>
+<ul>
+<li>
+<p><strong>Currency and Price List</strong>
+Select Price List</p>
+<p><strong>Select Source Warehouse</strong></p>
+<p><strong>Scan Barcode / Items</strong></p>
+<p><strong>Taxes and Charges</strong>
+Select Tax Cat., Shipping Rule<br>
+Sales tax &#x26; Charge list</p>
+<p><strong>Addl Discount &#x26; Coupon Codes</strong></p>
+<p><strong>Payment Terms</strong></p>
+<p><strong>T&#x26;C</strong></p>
+<p><strong>More Info</strong>
+Is Internal Cust bool<br>
+Project<br>
+Source<br>
+Campaign  </p>
+<p><strong>Billing and Delivery Status</strong>
+Commission</p>
+<p><strong>Sales Team</strong></p>
+<p><strong>Auto Repeat</strong></p>
+</li>
+</ul>
+<h3 id="quotation">Quotation<a aria-hidden="true" class="anchor-heading icon-link" href="#quotation"></a></h3>
+<p>Get items from Opportunity<br>
+Select customer or lead<br>
+Select order type (sales, maintenance, shopping cart? )  </p>
+<ul>
+<li>
+<p><strong>Items</strong>   </p>
+<p><strong>Taxes and Charges</strong>
+Tax category, shipping rule
+Sales tax + charges  </p>
+<p><strong>Addl Discount &#x26; Coupon Code</strong>  </p>
+<p><strong>Payment Terms</strong>  </p>
+<p><strong>T&#x26;C</strong>  </p>
+<p><strong>Print</strong>  </p>
+<p><strong>More Info</strong><br>
+Campaign, Source, Supplier Quotation</p>
+</li>
+</ul>
+<hr>
+<h2 id="buying">Buying<a aria-hidden="true" class="anchor-heading icon-link" href="#buying"></a></h2>
+<div class="mermaid">
+  flowchart TD
+MaterialRequest --> PurchaseOrder &#x26; RequestforQuotation
+RequestforQuotation --> SupplierQuotation --> PurchaseOrder
+PurchaseOrder --> PurchaseReceipt &#x26; PurchaseInvoice
+PurchaseInvoice &#x3C;--> PurchaseReceipt 
+
+PurchaseInvoice --> PaymentEntry
+PurchaseOrder --advance--> PaymentEntry
+</div>
+<h3 id="supplier">Supplier<a aria-hidden="true" class="anchor-heading icon-link" href="#supplier"></a></h3>
+<p>Supplier Name, Supplier Group, Country, Supplier Type, Default Bank Acct, PAN, Tax ID, IRS 1099 box, tax cat, tax withholding cat, is transporter box, is internal supplier box, allow PI creation w/out PO box, allow PI creation without purchase receipt box, disabled box</p>
+<ul>
+<li>
+<p><strong>Currency and Price List</strong>
+Billing Currency, Price List</p>
+<p><strong>Credit Limit</strong>
+Default Payment Terms template, block supplier checkbox</p>
+<p><strong>Primary Address and Contact Detail</strong>
+Supplier primary contact, primary address, mobile no. email id</p>
+<p><strong>Default Payable Accounts</strong>
+Accounts child table</p>
+<p><strong>More Information</strong>
+website, details, print, is frozen box</p>
+</li>
+</ul>
+<h3 id="request-for-quotation">Request For Quotation<a aria-hidden="true" class="anchor-heading icon-link" href="#request-for-quotation"></a></h3>
+<p>Get Items from Material Request, Opportunity, or Possible Supplier<br>
+Enter req'd date  </p>
+<ul>
+<li>
+<p><strong>Suppliers</strong>
+Suppliers list<br>
+Items list</p>
+<p><strong>Email Details</strong><br>
+Select template  </p>
+<p><strong>T&#x26;C</strong>  </p>
+<p><strong>Print</strong></p>
+</li>
+</ul>
+<h3 id="supplier-quotation">Supplier Quotation<a aria-hidden="true" class="anchor-heading icon-link" href="#supplier-quotation"></a></h3>
+<p>Get items from Material Request or RFQ  </p>
+<ul>
+<li>
+<p><strong>Address and Contact</strong><br>
+Supplier, POC  </p>
+<p><strong>Currency and Price List</strong>
+Select each</p>
+<p><strong>Taxes and Charges</strong>
+Tax cat., shipping rule</p>
+<p><strong>Addl Discount</strong></p>
+<p><strong>T&#x26;C</strong></p>
+<p><strong>Print Settings</strong></p>
+<p><strong>More Info</strong>
+Status, Is subcontracted? bool</p>
+</li>
+</ul>
+<h3 id="purchase-order">Purchase Order<a aria-hidden="true" class="anchor-heading icon-link" href="#purchase-order"></a></h3>
+<p>Select Supplier and Date<br>
+if Supplier, fetch items based on default supplier<br>
+Tax witholding bool  </p>
+<ul>
+<li>
+<p><strong>Address and Contact</strong>
+Supplier address, POC<br>
+Company Shipping and Billing addresses</p>
+<p><strong>Currency and Price LIst</strong>
+Select Price List</p>
+<p><strong>Subcontracting</strong><br>
+Supply Raw Materials bool</p>
+<p><strong>Scan Barcode, Set Target Warehouse</strong></p>
+<p><strong>Items</strong><br>
+Tax category, shipping rule<br>
+Purchase taxes, charges  </p>
+<p><strong>Addl Discount</strong></p>
+<p><strong>Payment Terms</strong></p>
+<p><strong>Order Status</strong></p>
+<p><strong>T&#x26;C</strong></p>
+<p><strong>Printing Settings</strong></p>
+<p><strong>Subscription Select</strong></p>
+<p><strong>More Info</strong><br>
+Is Internal Supplier bool</p>
+</li>
+</ul>
+<h2 id="manufacturing">Manufacturing<a aria-hidden="true" class="anchor-heading icon-link" href="#manufacturing"></a></h2>
+<div class="mermaid">
+  flowchart TD
+BillofMaterials --> WorkOrder
+WorkOrder --ifOperations--> JobCard --ifMaterialTransferAgainstJobcard--> a
+WorkOrder --MaterialTransfer--> a{Materials transferred to WIP?}
+a --yes--> StockEntryforRawMaterialTransfer
+a --no--> StockEntryforManufacture
+</div>
+<div class="mermaid">
+  flowchart TD
+SalesOrder --> ProductionPlan
+SalesOrder &#x26; ProductionPlan --> MaterialRequest
+MaterialRequest --ForPurchase--> PurchaseOrder &#x26; StockEntry &#x26; WorkOrder &#x26; SupplierQuotation &#x26; RequestForQuotation 
+RequestForQuotation --> SupplierQuotation --> PurchaseOrder
+</div>
+<h3 id="operation">Operation<a aria-hidden="true" class="anchor-heading icon-link" href="#operation"></a></h3>
+<p>Name, Default Workstation, bool is corrective operation  </p>
+<ul>
+<li>
+<p><strong>Job Card</strong>
+bool create card based on batch size
+quality inspection template</p>
+<p><strong>Sub Operations</strong>
+List:
+Operation, operation time  </p>
+<p><strong>Operation Description</strong></p>
+</li>
+</ul>
+<h3 id="workstation">Workstation<a aria-hidden="true" class="anchor-heading icon-link" href="#workstation"></a></h3>
+<p>Workstation name, production capacity</p>
+<ul>
+<li>
+<p><strong>Operating Costs</strong>
+Electricity, Rent, Consumable, Wages, per hour</p>
+<p><strong>Working Hours</strong>
+Holiday list<br>
+Working hours</p>
+<p><strong>Description</strong>
+Description</p>
+</li>
+</ul>
+<h3 id="work-order">Work Order<a aria-hidden="true" class="anchor-heading icon-link" href="#work-order"></a></h3>
+<p>Select Item to mfr, BOM no, qty, sales order project</p>
+<ul>
+<li>
+<p><strong>Settings</strong><br>
+bools allow alternate item, use multilevel bom, skip mat transfer to wip warehosue, update consumed material cost in project</p>
+<p><strong>Warehouses</strong><br>
+Select: source warehouse, wip warehouse, target warehouse, scrap warehouse</p>
+<p><strong>Required Items</strong><br>
+List: Item code, src warehosue, reqd qty, transferred qty, consumed qty  </p>
+<p><strong>Time</strong>
+Planned / actual dates, delivery date</p>
+<p> <strong>Operations</strong><br>
+list: operation, BOM, status, workstation, completed, description, times - start, end, total</p>
+<p> <strong>More Info</strong>
+Stock uom, material request</p>
+</li>
+</ul>
+<h3 id="job-card">Job Card<a aria-hidden="true" class="anchor-heading icon-link" href="#job-card"></a></h3>
+<p>Select Operation, Workstation, Employee</p>
+<ul>
+<li>
+<p><strong>Timing Detail</strong>
+List: employee, from time, to time, time in mins, completed qty</p>
+<p>Total completed qty  </p>
+<p><strong>Raw Materials</strong><br>
+List: item, source warehouse, reqd qty  </p>
+<p><strong>Scrap Items</strong><br>
+List: item code, item name</p>
+<p><strong>More Info</strong><br>
+FG qty from transferred raw mats, requested qty, status, remarks</p>
+</li>
+</ul>
+<h3 id="item">Item<a aria-hidden="true" class="anchor-heading icon-link" href="#item"></a></h3>
+<p>Item Code, Item Name, Item Group, from Hub bool, UOM<br>
+bools: disabled, allow alternate, main. stock, include in manuf., is fixed asset<br>
+Opnening stock, valuation rate, standard selling rate,</p>
+<ul>
+<li>
+<p><strong>Description</strong>
+Brand, description</p>
+<p><strong>Barcodes</strong>
+list</p>
+<p><strong>Inventory</strong>
+shelf life, EOL, default mat req type, val method, warrty, weight per, weight UOM  </p>
+<p><strong>Auto re-order</strong>
+check in, requuest for, rerorder level, reorder qty, mat.req</p>
+<p><strong>Units of Measure</strong>
+UOM, conversion factor</p>
+<p><strong>Serial Nos and Batches</strong>
+bool Has Batch No, Has Serial No</p>
+<p><strong>Variants</strong>
+bool Has Variants<br>
+if yes:
+var based on item attribute OR mfr
+attributes list:<br>
+attribute, val</p>
+<p><strong>Sales, purchase, accoutning details</strong>
+list
+default company, warehouse, price list</p>
+<p><strong>Purchase, replenishment details</strong>
+Default purchase unit of measure<br>
+Min order qty<br>
+Safety stock<br>
+Lead time in days<br>
+bool is cust provided</p>
+<p><strong>Supplier Details</strong>
+drop ship bool<br>
+Supplier Items list:
+supplier, part number</p>
+<p><strong>Foreign Trade Details</strong>
+Country of Origin, customs tariff number</p>
+<p><strong>Sales Details</strong>
+Default sales Unit of Measure, Max Discount<br>
+bools: is sales item, grant commission</p>
+<p><strong>Deferred Revenue</strong>
+bool enable deferred revenue</p>
+<p><strong>Deferred Expense</strong>
+bool enable deferred expense</p>
+<p><strong>Customer Details</strong>
+List Customer Items:<br>
+Customer name, group, ref code</p>
+<p><strong>Item Tax</strong>
+List:
+tax template, tax category, Valid from, min &#x26; max net rate</p>
+<p><strong>Inspection Criteria</strong>
+Quality Inspection Template<br>
+bools Inspection req'd before purchase, inspection req'd before delivery  </p>
+<p><strong>Manufacturing</strong>
+bool supply raw material for purchase</p>
+<p><strong>Hub publishing details</strong>
+bool publish in hub
+Select Hub Warehouse<br>
+bool synced with hub </p>
+</li>
+</ul>
+<h3 id="bom">BOM<a aria-hidden="true" class="anchor-heading icon-link" href="#bom"></a></h3>
+<p>Assign Item Name
+bool - isActive, isDefault, allowAlternateItem, sub-assyRateViaBOM
+Select project</p>
+<ul>
+<li>
+<p><strong>Currency and Price List</strong>
+Rate based on Select valuation rate, last purchase rate, price list</p>
+<p><strong>With Operations</strong>
+if bool<br>
+Transfer material against work order or job card
+Select routing
+List Operations</p>
+<p><strong>Materials</strong>
+Qualtiy inspection bool
+Select quality inspection template, BOM level
+List Items</p>
+<p><strong>Scrap</strong>
+List scrap items</p>
+<p>variants bool</p>
+<p><strong>Website</strong>
+show in website bool<br>
+Route   </p>
+</li>
+</ul>
+<h3 id="material-request">Material Request<a aria-hidden="true" class="anchor-heading icon-link" href="#material-request"></a></h3>
+<p>Get Items from BOM, Sales Order, or Product Bundle<br>
+Select purpose</p>
+<ul>
+<li>
+<p><strong>Warehouse</strong>
+Target warehouse</p>
+<p><strong>Items</strong>
+Barcode, etc.</p>
+<p><strong>Print</strong></p>
+<p><strong>T&#x26;C</strong></p>
+</li>
+</ul>
+<h3 id="request-for-quotation-1">Request for Quotation<a aria-hidden="true" class="anchor-heading icon-link" href="#request-for-quotation-1"></a></h3>
+<p> Select Series<br>
+Required Date, status<br>
+Suppliers table<br>
+Items table  </p>
+<ul>
+<li>
+<p><strong>Email Details</strong>
+Salutation, Email Template, Subject, Preview Email  </p>
+<p><strong>T&#x26;C</strong>  </p>
+<p><strong>Print Settings</strong></p>
+</li>
+</ul>
+<h3 id="production-plan">Production Plan<a aria-hidden="true" class="anchor-heading icon-link" href="#production-plan"></a></h3>
+<p>Get Items from mat req or Sales Order<br>
+Select company  </p>
+<ul>
+<li>
+<p><strong>Select Items to Manufacture</strong>
+Items, get subassembly items</p>
+<p><strong>Material Requirement Planning</strong>
+Incl nostock item bool<br>
+Incl subcontract item bool<br>
+Incl safety stock in req qty calc bool<br>
+Ignore existing proj. qty bool<br>
+Select warehouse
+Get raw mats. for prod action
+raw mat listing  </p>
+<p><strong>Other Details</strong>
+Total planned, produced qty<br>
+Status</p>
+</li>
+</ul>
+<h3 id="stock-entry">Stock Entry<a aria-hidden="true" class="anchor-heading icon-link" href="#stock-entry"></a></h3>
+<p> Stock Entry Type - mfr, material transfer, etc.<br>
+Date &#x26; time
+bools edit time, inspection required, from BOM; if BOM:
+Bom No, for Qty, Action get items, bool use multilevel bom
+Default src warehouse<br>
+Scan barcode<br>
+List - Items:
+source warehouse, target warehouse, item code, qty, basic rate</p>
+<p> <strong>Accounting Dimensions</strong><br>
+Select Project</p>
+<p> <strong>Print Settings</strong> </p>
+<p> <strong>More Info</strong>
+Is opening - y/n<br>
+Remarks</p>
+<p><a href="/assets/images/2022-01-10-12-56-45.png">Map</a></p>
+<h1 id="new-installation-import-order">New Installation Import order<a aria-hidden="true" class="anchor-heading icon-link" href="#new-installation-import-order"></a></h1>
+<p><a href="https://discuss.erpnext.com/t/what-order-to-setup-a-business-on-erpnext/72574/2">https://discuss.erpnext.com/t/what-order-to-setup-a-business-on-erpnext/72574/2</a>
+Gender #( I18N)
+Salutation #( I18N)
+User
+Blogger
+Blog_Post
+Logo
+Chart_of_Accounts_Importer
+Company
+Tax_Category
+Sales_Taxes_and_Charges_Template
+Email_Domain
+Email_Account
+Social_Login_Key
+Fiscal_Year
+Warehouse_Type
+Warehouse
+Web_Page
+Homepage_Section
+UOM
+Supplier_Group
+Supplier
+Custom_Script
+Item_Attribute
+Item_Group
+Item
+Item_Price
+Customer
+Sales_Invoice
+Payment_Entry
+Workstation
+Operation
+Routing
+BOM
+Employee
+Widgets #(my app)
+Stock_Entry
+Work_Order
+Print_Format</p>
